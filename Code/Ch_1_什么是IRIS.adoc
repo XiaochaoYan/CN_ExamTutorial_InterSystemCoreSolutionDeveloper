@@ -22,7 +22,7 @@ Unified / Open Data Platform
 3.All in ONE environment +
 4.No need for 2 sets of data (transactional / analytical) +
 5.Apply calculation model in real-time +
-6.Integration Engine for other systems / platforms+
+6.Integration Engine for other systems / platforms +
 
 === Analytics +
 1.Support Apache Spark +
