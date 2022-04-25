@@ -46,8 +46,7 @@ Unified / Open Data Platform +
 
 === 以上
 
-==官方资料 
-
+== 官方资料 
 https://learning.intersystems.com/course/view.php?id=1062&ssoPass=1[EN_什么是IRIS] +
 https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[EN_CoreDeveloper例题]
 
