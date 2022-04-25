@@ -9,14 +9,19 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../images]
 
 = InterSystem IRIS
+
 [NOTE]
-Unified / Open Data Platform
+什么是IRIS? +
+Unified / Open Data Platform +
+统一的 开放式 数据平台 +
+
+== 平台特征
 1.Scalable Database +
 2.built-in Analytic tools +
 3.Interoperability +
 4.Automatic Deployment +
 
-=== DB features +
+=== DB features / 数据库模块特点 +
 1.DB scale both vertically and horizontally +
 2.Same code can access data in different ways "Document" / "Native" / "Object" / "Relational" +
 3.All in ONE environment +
@@ -24,15 +29,15 @@ Unified / Open Data Platform
 5.Apply calculation model in real-time +
 6.Integration Engine for other systems / platforms +
 
-=== Analytics +
+=== Analytics / 分析模块特点 +
 1.Support Apache Spark +
 2.Built-in natural language process ability +
 3.NO pre-defined data structure / relationshop needed +
 
-=== Interoperability +
+=== Interoperability / 互通性相关功能 +
 1.Message Routing ability +
 
-=== Supported Languages
+=== Supported Languages / 支持的语言
 1. JAVA +
 2. Node.js +
 3. .NET +
