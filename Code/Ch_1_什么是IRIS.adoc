@@ -1,0 +1,38 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../images]
+
+= InterSystem IRIS
+[NOTE]
+Unified Data Platform with
+1.Scalable Database +
+2.built-in Analytic tools +
+3.Interoperability +
+4.Automatic Deployment +
+
+
+
+
+=== 以上
+
+==官方资料 
+
+https://learning.intersystems.com/course/view.php?id=1062&ssoPass=1[EN_什么是IRIS] +
+https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[EN_CoreDeveloper例题]
+
+== 名词对照表
+
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
