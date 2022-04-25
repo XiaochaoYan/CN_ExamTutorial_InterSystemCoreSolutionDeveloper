@@ -10,13 +10,33 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 = InterSystem IRIS
 [NOTE]
-Unified Data Platform with
+Unified / Open Data Platform
 1.Scalable Database +
 2.built-in Analytic tools +
 3.Interoperability +
 4.Automatic Deployment +
 
+=== DB features +
+1.DB scale both vertically and horizontally +
+2.Same code can access data in different ways "Document" / "Native" / "Object" / "Relational" +
+3.All in ONE environment +
+4.No need for 2 sets of data (transactional / analytical) +
+5.Apply calculation model in real-time +
+6.Integration Engine +
 
+=== Analytics +
+1.Support Apache Spark +
+2.Built-in natural language process ability +
+3.NO pre-defined data structure / relationshop needed +
+
+=== Interoperability +
+1.Message Routing ability +
+
+=== Supported Languages
+1. JAVA +
+2. Node.js +
+3. .NET +
+4. Python +
 
 
 === 以上
@@ -27,7 +47,7 @@ https://learning.intersystems.com/course/view.php?id=1062&ssoPass=1[EN_什么是
 https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[EN_CoreDeveloper例题]
 
 == 名词对照表
-
+PlaceHolder : 暂时无中日版官方翻译 暂空
 [options="header,footer" cols="s,s,s"]
 |=======================
 |中文|English|日本語
