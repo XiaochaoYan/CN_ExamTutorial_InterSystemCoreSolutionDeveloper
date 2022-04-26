@@ -1,0 +1,34 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../images]
+
+= 学习指南
+
+鉴于目前IRIS没有提供任何中文的翻译/学习资料，并且日文也只有粗糙的机翻字幕 +
+个人建议各位学习者 +
+
+1.记住专有名词和话术 + 
+像Integration Engine（整合引擎）这种自造的新概念 +
+2.遇到不懂多求助开发者社区（Developer Community） +
+https://community.intersystems.com/[EN_开发者社区入口] +
+3.多举一反三，和同类产品做横向比较/思考IRIS在垂直产业链中的位置和作用 +
+
+=== 以上
+
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
