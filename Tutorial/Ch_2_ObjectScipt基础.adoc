@@ -1,0 +1,28 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../images]
+
+= InterSystem IRIS
+
+
+=== 以上
+
+== 官方资料 
+https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程_疑似有BUG_控制台中无write命令]
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
