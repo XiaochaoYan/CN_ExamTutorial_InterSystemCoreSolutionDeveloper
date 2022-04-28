@@ -27,7 +27,8 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[EN_CoreDeveloper考试概要] +
 2. https://docs.intersystems.com/[EN_官方文档] +
 3. https://docs.intersystems.com/irislatest/csp/docbook/pdfs/pdfs/RCOS.pdf[EN_考试时可以使用的ObjectScript参考PDF] +
-4. https://gettingstarted.intersystems.com/full-stack/[EN_全栈教程]
+4. https://gettingstarted.intersystems.com/full-stack/[EN_全栈教程] +
+5. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Part01[EN_ObjectScript教程] +
 
 
 === 以上
