@@ -20,7 +20,7 @@ image::../Img/IRIS_001.png[]
 
 == 官方资料 
 1. https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程]
-2. https://intersystems-community.github.io/webterminal/#docs [EN_WebTerminal文档]
+2. https://intersystems-community.github.io/webterminal/#docs[EN_WebTerminal文档]
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
