@@ -11,8 +11,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 = ObjectScript入门
 
 注意点： +
-1.1号教程中提到的"Managment Portal" / "Web Terminal" / "IDE/IDE Sandbox" 指的是完全不同的东西。虽然基本都是用IRIS特有的ObjectScript，但是语法有细微差别。 +
-  1号教程中的"IDE’s terminal window"特指下图中的 "Web Terminal" +
+1.1号教程中提到的"Managment Portal" / "Web Terminal" / "IDE/IDE Sandbox" 指的是完全不同的东西。虽然基本都是用IRIS特有的ObjectScript，但是语法有细微差别。1号教程中的"IDE’s terminal window"特指下图中的 "Web Terminal" +
 
 image::../Img/IRIS_001.png[]
 
@@ -22,6 +21,7 @@ image::../Img/IRIS_001.png[]
 == 官方资料 
 1. https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程]
 2. https://intersystems-community.github.io/webterminal/#docs [EN_WebTerminal文档]
+
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
 [options="header,footer" cols="s,s,s"]
