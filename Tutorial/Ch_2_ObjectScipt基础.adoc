@@ -14,7 +14,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 1.1号教程中提到的"Managment Portal" / "Web Terminal" / "IDE/IDE Sandbox" 指的是完全不同的东西。虽然基本都是用IRIS特有的ObjectScript，但是语法有细微差别。 +
 1号教程中的特指下图中的 "Web Terminal" +
 
-image::IRIS_001.png[]
+image::../Img/IRIS_001.png[]
 
 
 
