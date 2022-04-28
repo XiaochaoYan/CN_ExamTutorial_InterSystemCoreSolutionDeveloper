@@ -8,13 +8,21 @@ ifdef::env-github[]
 endif::[]
 ifndef::imagesdir[:imagesdir: ../images]
 
-= InterSystem IRIS
+= ObjectScript入门
+
+注意点： +
+1.1号教程中提到的"Managment Portal" / "Web Terminal" / "IDE/IDE Sandbox" 指的是完全不同的东西。虽然基本都是用IRIS特有的ObjectScript，但是语法有细微差别。 +
+1号教程中的特指下图中的 "Web Terminal" +
+
+image::IRIS_001.png[]
 
 
-=== 以上
+
+
+=== 未完
 
 == 官方资料 
-https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程_疑似有BUG_控制台中无write命令]
+1. https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程_疑似有BUG_控制台中无write命令]
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
