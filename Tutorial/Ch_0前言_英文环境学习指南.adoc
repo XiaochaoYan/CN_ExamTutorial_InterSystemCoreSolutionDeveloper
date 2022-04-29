@@ -16,7 +16,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 1.记住专有名词和话术 + 
 像Integration Engine（整合引擎）这种特殊的说法 +
-或是 Multi-Model DBMS（SQL and NoSQL DMBS）多模型数据库系统 这种IRIS特有的概念 +
+或是 Multi-Model DBMS（SQL and NoSQL DBMS）多模型数据库系统 这种IRIS特有的概念 +
 
 2.遇到不懂多求助开发者社区（Developer Community） +
 https://community.intersystems.com/[EN_开发者社区入口] +
