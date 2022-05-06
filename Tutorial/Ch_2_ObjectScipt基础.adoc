@@ -10,13 +10,38 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 = ObjectScript入门
 
+== [1号教程]概要 +
+
+=== 1.ObjectScript声明/读取/更改 全局变量 
+
+=== 2.ObjectScript创建Object Oriented Programming 中的 Class +
+
+其中变量类型采用 % 符号声明 如 %String +
+IRIS内部的 IRIS class 也采用 % 区分
+
+===== ..   双点表示当前对象/实例 +
+WRITE 后接 ！ 为在提供格式的情况下打印变量
+
+=== 3.ObjectScript 的基本SQL操作
+可以直接使用SQL语句
+
+---- 
+Query Select() As %SQLQuery [SqlProc]
+{
+  SELECT %ID, FirstName, LastName 
+  FROM Person
+  ORDER By LastName, FirstName
+}
+---- 
+以上代码为声明一个SQL查询用的method
+
 注意点： +
 1.1号教程中提到的"Managment Portal" / "Web Terminal" / "IDE/IDE Sandbox" 指的是完全不同的东西。虽然基本都是用IRIS特有的ObjectScript，但是语法有细微差别。1号教程中的"IDE’s terminal window"特指下图中的 "Web Terminal" +
 
 image::../Img/IRIS_001.png[]
 
 
-=== 未完
+=== 以上
 
 == 官方资料 
 1. https://gettingstarted.intersystems.com/language-quickstarts/objectscript-quickstart/[EN_ObjectScript入门教程]
