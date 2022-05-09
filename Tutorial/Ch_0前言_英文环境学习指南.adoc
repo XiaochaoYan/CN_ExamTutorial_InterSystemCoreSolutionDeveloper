@@ -29,6 +29,7 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 3. https://docs.intersystems.com/irislatest/csp/docbook/pdfs/pdfs/RCOS.pdf[EN_考试时可以使用的ObjectScript参考PDF] +
 4. https://gettingstarted.intersystems.com/full-stack/[EN_全栈教程] +
 5. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Part01[EN_ObjectScript教程] +
+6. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[ENObjectScript详细文档] +
 
 
 === 以上
