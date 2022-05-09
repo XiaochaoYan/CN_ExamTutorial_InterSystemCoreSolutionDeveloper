@@ -63,7 +63,7 @@ WRITE "QUIT out of the IF",!
 实际for的应用方法十分多变，恕篇幅原因不在此赘述。 +
 参考： https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_cfor[EN_for语句详细使用说明] +
 ----
-FOR index=1:1:10 {WRITE index,!} // 打印1-9 （不会打印10
+FOR index=1:1:10 {WRITE index,!} // 打印1-10 （会打印10
 ----
 
 ==== 5.Try Catch处理异常 +
