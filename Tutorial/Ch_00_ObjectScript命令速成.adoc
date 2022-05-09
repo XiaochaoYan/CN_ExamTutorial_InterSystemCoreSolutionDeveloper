@@ -68,6 +68,9 @@ FOR index=1:1:10 {     WRITE index,!   }
  further statements //后续其他代码,默认情况下会继续执行
 ----
 
+----
+TRY { WRITE "Here my method generates an error",! throw  }  catch {WRITE "Catched"} //TRY-Catch实验代码，无实际应用
+----
 ==== String 类型操作 连接 a b 这两个String +
 ----
  SET a = "Inter"
