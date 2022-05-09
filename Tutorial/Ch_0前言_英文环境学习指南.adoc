@@ -28,20 +28,20 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 === 但是变量名和其他的如SQL命令依然大小写敏感 +
 === ObjectScript自带Python支持同时自身语法也一定程度上类似Python
 
-1.set A = B +
+==== 1.set A = B +
 赋B值 给变量A（如果A变量不存在，则同时声明A变量 
 
-2.write A +
+==== 2.write A +
 在当前界面打印 变量A (部分场合可能为保存 +
 在write中 ! 惊叹号表示下一行 +
 常写为 write A,! +
 
-3.kill A +
+==== 3.kill A +
 删除 变量A
 
-4.逻辑代码 +
+==== 4.逻辑代码 +
 
-while循环 +
+==== while循环 +
 ----
  SET x=1
    WHILE x<10 {
@@ -50,7 +50,7 @@ while循环 +
    } //打印 Looping 1-9
 ----
 
-if语句 +
+==== if语句 +
 此处还展示了 Quit 和 Break "S" 语句的不同，
 ----
 SET y=$RANDOM(10)   
@@ -60,7 +60,15 @@ ELSE {     WRITE y," is odd",!     break "S"     WRITE "Great!",!     }
 WRITE "QUIT out of the IF",!
 ----
 
-5.Try Catch处理异常 +
+==== 标准for循环 +
+此处类似C++/JAVA/Python等传统语言的用法 +
+实际for的应用方法十分多变，恕篇幅原因不在此赘述。
+参考： https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_cfor[EN_for语句详细使用说明]
+----
+FOR index=1:1:10 {     WRITE index,!   }
+----
+
+==== 5.Try Catch处理异常 +
 同JAVA的异常处理逻辑 同时可以接受Throw
 ----
  TRY {
