@@ -40,16 +40,17 @@ image::IRIS_003.png[]
 
 7.结果检验：尝试显示刚才导入的数据
 
----- /sql ----
-
----- select * from ICO.inventory ----
+---- 
+/sql 
+select * from ICO.inventory 
+----
 
 如成功会显示如下图一样成功显示数据
 
-=== 注意点
-1.要完成第4/5两步教程后才能通过Python倒入数据 
-
 image::IRIS_005.png[]
+
+== 注意点
+1.要完成第4/5两步教程后才能通过Python导入数据 
 
 === 以上
 
