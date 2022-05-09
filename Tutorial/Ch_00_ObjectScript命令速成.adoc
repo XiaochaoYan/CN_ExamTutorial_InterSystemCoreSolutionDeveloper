@@ -15,7 +15,11 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 === 但是变量名和其他的如SQL命令依然大小写敏感 +
 
-=== ObjectScript自带Python支持同时自身语法也一定程度上类似Python
+=== ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
+
+{nbsp} +
+
+==== 0.注释需要在 任意空白字符 后接  //  双正斜杠 +
 
 ==== 1.set A = B +
 赋B值 给变量A（如果A变量不存在，则同时声明A变量 
@@ -43,18 +47,23 @@ ifndef::imagesdir[:imagesdir: ../images]
 此处还展示了 Quit 和 Break "S" 语句的不同，建议多实验几次，仔细观察
 ----
 SET y=$RANDOM(10)   
-IF y#2=0 {     WRITE y," is even",!    QUIT     WRITE "不会打出来",!     }   
-ELSE {     WRITE y," is odd",!     break "S"     WRITE "Great!打出来了",!     }   
+IF y#2=0 {WRITE y," is even",!   
+          QUIT     
+          WRITE "不会打出来",!}   
+          
+ELSE {    WRITE y," is odd",!    
+          break "S"     
+          WRITE "Great!打出来了",!}   
 
 WRITE "QUIT out of the IF",!
 ----
 
 ==== 标准for循环 +
 此处类似C++/JAVA/Python等传统语言的用法 +
-实际for的应用方法十分多变，恕篇幅原因不在此赘述。
-参考： https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_cfor[EN_for语句详细使用说明]
+实际for的应用方法十分多变，恕篇幅原因不在此赘述。 +
+参考： https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_cfor[EN_for语句详细使用说明] +
 ----
-FOR index=1:1:10 {     WRITE index,!   }
+FOR index=1:1:10 {WRITE index,!} // 打印1-9 （不会打印10
 ----
 
 ==== 5.Try Catch处理异常 +
@@ -75,7 +84,7 @@ TRY { WRITE "Here my method generates an error",! throw  }  catch {WRITE "Catche
 ----
  SET a = "Inter"
  SET b = "Systems"
- SET string = a_b
+ SET string = a_b //连接 a b
  WRITE string
 ----
 
