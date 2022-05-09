@@ -10,7 +10,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = JSON的SQL导入
 
-=== 步骤梗概
+== 步骤梗概
 
 ==== 为保证可读性，本梗概较原教程顺序略有调整，且省去部分代码。关键代码部分我提供了搜索关键字，请善用 Ctrl+F 浏览器搜索功能。
 
@@ -18,7 +18,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 image::IRIS_002.png[]
 
-IDE功能介绍
+=== IDE功能介绍
 
 image::IRIS_004.png[]
 
