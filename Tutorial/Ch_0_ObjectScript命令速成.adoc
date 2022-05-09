@@ -1,0 +1,96 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../images]
+
+
+= ObjectScript 常用命令中文速查 +
+
+=== 所有在WebTerminal中的ObjectScript命令大小写不敏感 SET / Set / set 均一样 +
+
+=== 但是变量名和其他的如SQL命令依然大小写敏感 +
+
+=== ObjectScript自带Python支持同时自身语法也一定程度上类似Python
+
+==== 1.set A = B +
+赋B值 给变量A（如果A变量不存在，则同时声明A变量 
+
+==== 2.write A +
+在当前界面打印 变量A (部分场合可能为保存 +
+在write中 ! 惊叹号表示下一行 +
+常写为 write A,! +
+
+==== 3.kill A +
+删除 变量A
+
+==== 4.逻辑代码 +
+
+==== while循环 +
+----
+ SET x=1
+   WHILE x<10 {
+      WRITE !," Looping",x
+      SET x=x+1
+   } //打印 Looping 1-9
+----
+
+==== if语句 +
+此处还展示了 Quit 和 Break "S" 语句的不同，建议多实验几次，仔细观察
+----
+SET y=$RANDOM(10)   
+IF y#2=0 {     WRITE y," is even",!    QUIT     WRITE "不会打出来",!     }   
+ELSE {     WRITE y," is odd",!     break "S"     WRITE "Great!打出来了",!     }   
+
+WRITE "QUIT out of the IF",!
+----
+
+==== 标准for循环 +
+此处类似C++/JAVA/Python等传统语言的用法 +
+实际for的应用方法十分多变，恕篇幅原因不在此赘述。
+参考： https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_cfor[EN_for语句详细使用说明]
+----
+FOR index=1:1:10 {     WRITE index,!   }
+----
+
+==== 5.Try Catch处理异常 +
+同JAVA的异常处理逻辑 同时可以接受Throw
+----
+ TRY {
+      protected statements //受保护代码
+ } CATCH [ErrorHandle] {
+      error statements //异常处理打码
+ }
+ further statements //后续其他代码,默认情况下会继续执行
+----
+
+==== String 类型操作 连接 a b 这两个String +
+----
+ SET a = "Inter"
+ SET b = "Systems"
+ SET string = a_b
+ WRITE string
+----
+
+= 官方资料 +
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
+2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
+
+
+=== 以上
+
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
