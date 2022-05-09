@@ -51,11 +51,11 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 ----
 
 ==== if语句 +
-此处还展示了 Quit 和 Break "S" 语句的不同，
+此处还展示了 Quit 和 Break "S" 语句的不同，建议多实验几次，仔细观察
 ----
 SET y=$RANDOM(10)   
-IF y#2=0 {     WRITE y," is even",!    QUIT     WRITE "never written",!     }   
-ELSE {     WRITE y," is odd",!     break "S"     WRITE "Great!",!     }   
+IF y#2=0 {     WRITE y," is even",!    QUIT     WRITE "不会打出来",!     }   
+ELSE {     WRITE y," is odd",!     break "S"     WRITE "Great!打出来了",!     }   
 
 WRITE "QUIT out of the IF",!
 ----
