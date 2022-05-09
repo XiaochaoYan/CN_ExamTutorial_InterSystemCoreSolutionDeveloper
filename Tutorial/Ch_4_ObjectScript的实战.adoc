@@ -15,7 +15,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 == 官方资料 
 1. https://gettingstarted.intersystems.com/full-stack/part-two-rest-services/#getsandbox[EN_ObjectScript的实战] +
-2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_CH_CLASS[EN_ObjectScript的命令解释] +
+2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_ObjectScript的命令解释] +
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
