@@ -16,6 +16,10 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 1.从下图链接创建环境后 进入The Sandbox IDE（后简称IDE）
 
+IDE功能介绍
+
+img::../Img/IRIS_002.png[] 
+
 2.从Git 克隆quickstarts-full-stack项目
 
 3.在左侧IDE文件管理器中 quickstarts-full-stack文件夹中，找到 有DB数据的manifest.json / 负责导入的manifest_importer.py / 负责远程连接配置的connection.config 这三个文件并熟悉文件。
@@ -28,6 +32,10 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 === 此时我们在IDE的左上角菜单中点击 InterSystem -> Web Terminal 进入WebTerminal 并通过用户名 tech 登入
 
+登入后界面
+
+img::../Img/IRIS_003.png[] 
+
 7.结果检验：尝试显示刚才导入的数据
 
 ---- /sql ----
@@ -36,6 +44,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 如成功会显示如下图一样成功显示数据
 
+img::../Img/IRIS_004.png[] 
 
 === 注意点
 
