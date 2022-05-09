@@ -1,0 +1,57 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../images]
+
+= JSON的SQL导入
+
+=== 步骤梗概
+
+==== 为保证可读性，本梗概较原教程顺序略有调整，且省去部分代码。关键代码部分我提供了搜索关键字，请善用 Ctrl+F 浏览器搜索功能。
+
+1.从下图链接创建环境后 进入The Sandbox IDE（后简称IDE）
+
+2.从Git 克隆quickstarts-full-stack项目
+
+3.在左侧IDE文件管理器中 quickstarts-full-stack文件夹中，找到 有DB数据的manifest.json / 负责导入的manifest_importer.py / 负责远程连接配置的connection.config 这三个文件并熟悉文件。
+
+4.根据教程中“Database connection settings for your sandbox”部分更改 connection.config文件
+
+5.根据教程中“Set up the ODBC driver.” 在IDE环境中安装OBDC驱动
+
+6.在IDE环境运行 manifest_importer.py 导入数据到SQL DB
+
+=== 此时我们在IDE的左上角菜单中点击 InterSystem -> Web Terminal 进入WebTerminal 并通过用户名 tech 登入
+
+7.结果检验：尝试显示刚才导入的数据
+
+---- /sql ----
+
+---- select * from ICO.inventory ----
+
+如成功会显示如下图一样成功显示数据
+
+
+=== 注意点
+
+
+=== 以上
+
+== 官方资料 
+1. https://gettingstarted.intersystems.com/full-stack/full-stack-part-one/#getsandbox[EN_JSON的SQL导入]
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
