@@ -80,7 +80,7 @@ FOR index=1:1:10 {WRITE index,!} // 打印1-10 （会打印10
 ----
 TRY { WRITE "Here my method generates an error",! throw  }  catch {WRITE "Catched"} //TRY-Catch实验代码，无实际应用
 ----
-==== String 类型操作 连接 a b 这两个String +
+==== 6.String 类型操作 连接 a b 这两个String +
 ----
 SET a = "Inter"
 SET b = "Systems"
@@ -88,10 +88,19 @@ SET string = a_b  //连接 a b
 WRITE string
 ----
 
+==== 7.让用户输入字符串 READ 命令
+其中 
+# 表示 新的屏幕 类似 window命令行中clear 或 Linux中的 Ctrl+L
+! 表示 下一行 类似 "\n"
+----
+READ #!!,"Please enter",!,"your name: ",x,"THANK YOU"
+----
+
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
-3. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_strings[EN_String相关运算符]
+3. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_strings[EN_String相关运算符] +
+4. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_cread#:~:text=!%20starts%20a%20new,a%20positive%20integer[EN_ObjectScript中特殊String字符] +
 
 
 === 以上
