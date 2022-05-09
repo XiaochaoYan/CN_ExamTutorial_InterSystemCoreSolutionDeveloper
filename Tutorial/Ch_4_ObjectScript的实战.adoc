@@ -1,0 +1,29 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+= ObjectScript的实战
+
+
+=== 未完
+
+== 官方资料 
+1. https://gettingstarted.intersystems.com/full-stack/part-two-rest-services/#getsandbox[EN_ObjectScript的实战] +
+2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_CH_CLASS[EN_ObjectScript的命令解释] +
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+
+|=======================
+
+
+    
