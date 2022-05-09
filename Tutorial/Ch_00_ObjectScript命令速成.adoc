@@ -82,10 +82,10 @@ TRY { WRITE "Here my method generates an error",! throw  }  catch {WRITE "Catche
 ----
 ==== String 类型操作 连接 a b 这两个String +
 ----
- SET a = "Inter"
- SET b = "Systems"
- SET string = a_b //连接 a b
- WRITE string
+SET a = "Inter"
+SET b = "Systems"
+SET string = a_b  //连接 a b 
+WRITE string
 ----
 
 = 官方资料 +
