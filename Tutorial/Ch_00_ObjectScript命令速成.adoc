@@ -89,9 +89,9 @@ WRITE string
 ----
 
 ==== 7.让用户输入字符串 READ 命令
-其中 
-# 表示 新的屏幕 类似 window命令行中clear 或 Linux中的 Ctrl+L
-! 表示 下一行 类似 "\n"
+其中 +
+# 表示 新的屏幕 类似 window命令行中clear 或 Linux中的 Ctrl+L +
+! 表示 下一行 类似 "\n" +
 ----
 READ #!!,"Please enter",!,"your name: ",x,"THANK YOU"
 ----
