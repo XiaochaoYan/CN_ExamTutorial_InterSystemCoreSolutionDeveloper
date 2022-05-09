@@ -6,7 +6,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-ifndef::imagesdir[:imagesdir: ../images]
+ifndef::imagesdir[:imagesdir: ../Img]
 
 = JSON的SQL导入
 
@@ -16,9 +16,11 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 1.从下图链接创建环境后 进入The Sandbox IDE（后简称IDE）
 
+image::IRIS_002.png[]
+
 IDE功能介绍
 
-img::../Img/IRIS_002.png[] 
+image::IRIS_004.png[]
 
 2.从Git 克隆quickstarts-full-stack项目
 
@@ -34,7 +36,7 @@ img::../Img/IRIS_002.png[]
 
 登入后界面
 
-img::../Img/IRIS_003.png[] 
+image::IRIS_003.png[]
 
 7.结果检验：尝试显示刚才导入的数据
 
@@ -44,10 +46,10 @@ img::../Img/IRIS_003.png[]
 
 如成功会显示如下图一样成功显示数据
 
-img::../Img/IRIS_004.png[] 
-
 === 注意点
+1.要完成第4/5两步教程后才能通过Python倒入数据 
 
+image::IRIS_005.png[]
 
 === 以上
 
