@@ -97,6 +97,21 @@ WRITE string
 READ #!!,"Please enter",!,"your name: ",x,"THANK YOU"
 ----
 
+==== 8. "?" 问号 趋势匹配 Pattern Matching 演算符 +
+https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern1[EN_趋势匹配演算符_对照] +
+https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern2[EN_趋势匹配演算符_解释说明] +
+美国SSN号码一般遵循 3个数字 + 一个“-中横杠” + 2个数字 + 一个“-中横杠” + 4个数字的规律 +
+
+所以 3N1"-" 这段代码实际上 + 
+3N 代表需要3个数字 +
+1"-" 代表需要一个中横杠 +
+
+进行匹配 +
+----
+set ssn = "012-34-5678"
+
+if ssn ? 3N1"-"2N1"-"4N write "valid"
+----
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
