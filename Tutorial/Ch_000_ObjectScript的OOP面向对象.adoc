@@ -13,7 +13,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == 常见Class类 +
 1.%RegisteredObject +
-This class represents the object interface in its most generic form. +.
+This class represents the object interface in its most generic form. +
 最通用的Class种类，用于嵌套查询的 %SQL.Statement 也 拓展（extend） 了这个类
 
 2.%Persistent +
