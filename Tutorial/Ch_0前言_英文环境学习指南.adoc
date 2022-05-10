@@ -32,7 +32,7 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 6. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 7. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
 8. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro#GOBJ_intro_method[EN_Class / Method 机制详解] +
-9. https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern2[EN_数字/字符串 趋势匹配(Pattern Matching)] +
+9. https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern2[EN_数字/字符串 趋势匹配(Pattern Matching) - 2018的老版文档] +
 
 
 === 以上
