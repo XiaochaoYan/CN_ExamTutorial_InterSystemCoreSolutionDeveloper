@@ -9,6 +9,7 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript的实战
+
 == 步骤梗概 +
 === 1.ObjectScript database query +
 根据提示进入 Web Terminal 进行SQL查询和数据的更改 +
@@ -22,10 +23,10 @@ ifndef::imagesdir[:imagesdir: ../Img]
 根据提示输入 SQL查询命令 并保存 +
 
 == 点击红线处原点可以保存
-image::IRIS_006[]
+image::IRIS_006.png[]
 
 === 或者可以通过红线处任意选项保存 / 打开自动保存功能
-image::IRIS_007[]
+image::IRIS_007.png[]
 
 等待片刻，服务器端完成编译后，回到 Web Terminal +
 运行
