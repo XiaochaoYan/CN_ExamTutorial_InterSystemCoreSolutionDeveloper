@@ -1,4 +1,4 @@
-May 9th - 正式的に入職
+May 9th - 正式的に入職 Chaper 2/3　のチュートリアル作成完成
 
 May 10th - 10:00AM-12:00AM IRIS学習　始めました。内容：Object Script と　Web Services　の結合運用
-         - 13:00
+         - 13:00~　Chaper4 のチュートリアル作成
