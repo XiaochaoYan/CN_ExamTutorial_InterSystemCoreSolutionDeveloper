@@ -22,10 +22,10 @@ ifndef::imagesdir[:imagesdir: ../Img]
 根据提示输入 SQL查询命令 并保存 +
 
 == 点击红线处原点可以保存
-img::IRIS_006[]
+image::IRIS_006[]
 
 === 或者可以通过红线处任意选项保存 / 打开自动保存功能
-img::IRIS_007[]
+image::IRIS_007[]
 
 等待片刻，服务器端完成编译后，回到 Web Terminal +
 运行
