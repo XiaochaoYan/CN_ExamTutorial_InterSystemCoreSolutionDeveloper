@@ -36,6 +36,8 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 10. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_symbols[EN_ObjectScript中的特殊符号]
 11. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_Class的定义与声明] +
 12. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_classes_classvar[EN_常见Class种类速查] +
+13. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_strings[EN_String相关运算符] +
+14. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_cread#:~:text=!%20starts%20a%20new,a%20positive%20integer[EN_ObjectScript中特殊String字符]
 
 
 === 以上
