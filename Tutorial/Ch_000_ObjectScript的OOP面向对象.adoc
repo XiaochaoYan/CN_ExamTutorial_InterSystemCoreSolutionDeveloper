@@ -51,7 +51,7 @@ Property PropName as Classname(PARAM1=value,PARAM2=value) [ Keywords ] ;
 ----
 
 == 方法 Method +
-类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method +
+类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method。 如果省去 as Classname 部分，则本方法不会返回值 +
 ----
 ClassMethod MethodName(arguments) as Classname [ Keywords]
 {
