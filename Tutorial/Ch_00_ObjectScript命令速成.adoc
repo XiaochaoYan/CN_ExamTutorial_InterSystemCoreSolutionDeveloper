@@ -17,6 +17,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 === ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
 
+=== ObjectScript 变量对变量类型敏感 属于 Typeless Language +
+
 {nbsp} +
 
 ==== 0.注释需要在 任意空白字符 后接  //  双正斜杠 +
@@ -127,6 +129,12 @@ if ssn ? 3N1"-"2N1"-"4N write "valid"
 1"-" 代表需要一个中横杠 +
 
 进行匹配 +
+
+==== 9. ##class 关键字 类似 JAVA/C++ 中 Stactic +
+每次新建 实例object 时，必须使用此关键字
+----
+SET expr = ##class(Person).%New()
+----
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
