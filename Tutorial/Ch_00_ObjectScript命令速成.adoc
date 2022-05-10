@@ -21,6 +21,20 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 ==== 0.注释需要在 任意空白字符 后接  //  双正斜杠 +
 
+==== 演算符优先级 Operator Precedence +
+=== 和其他语言完全不同，采用严格的从左到右顺序 +
+----
+ WRITE "1 + 2 * 3 = ", 1 + 2 * 3,!  // returns 9
+ WRITE "2 * 3 + 1 = ", 2 * 3 + 1,!  // returns 7
+ WRITE "1 + (2 * 3) = ", 1 + (2 * 3),!  // returns 7
+ WRITE "2 * (3 + 1) = ", 2 * (3 + 1),!  // returns 8
+----
+----
+SET Value = (4 + 7 > 6 + 6) // returns 7
+WRITE Value
+----
+
+
 ==== 1.set A = B +
 赋B值 给变量A（如果A变量不存在，则同时声明A变量 
 
