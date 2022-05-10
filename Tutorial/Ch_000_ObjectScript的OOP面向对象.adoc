@@ -22,9 +22,9 @@ This class represents a persistent object. In addition to providing the object i
 
 3.%SerialObject +
 his class represents an object that can be embedded in (serialized within) another object. +
-可序列化的 %RegisteredObject， 是 %RegisteredObject 的子类
+可序列化的 %RegisteredObject， 是 %RegisteredObject 的子类 +
 
-
+image::IRIS_008.png[]
 
 
 = 官方资料 +
