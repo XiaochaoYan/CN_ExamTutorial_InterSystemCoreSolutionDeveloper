@@ -27,6 +27,38 @@ his class represents an object that can be embedded in (serialized within) anoth
 image::IRIS_008.png[]
 
 
+== 继承 Extends +
+可继承多个父类, 官方推荐至少继承 %Persistent 或 它的其他子类 。
+----
+Class Demo.MyClass Extends (Superclass1, Superclass2, Superclass3) 
+{
+
+//...
+
+}
+----
+
+== 参数 Parameter +
+类的参数采用下方声明语法， 其中 Keyword 和 Value 部分为可选 +
+----
+Parameter PARAMNAME as Type [ Keywords ] = value;
+----
+
+== 属性 Property +
+类的属性采用下方声明语法， 其中 Classname（实为数据类型，默认为%String） Keyword 和 Value 部分为可选 +
+----
+Property PropName as Classname(PARAM1=value,PARAM2=value) [ Keywords ] ;
+----
+
+== 方法 Method +
+类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method +
+----
+ClassMethod MethodName(arguments) as Classname [ Keywords]
+{
+//method implementation
+}
+----
+
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
