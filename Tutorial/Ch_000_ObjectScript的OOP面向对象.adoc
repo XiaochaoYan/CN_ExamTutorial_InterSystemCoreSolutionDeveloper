@@ -42,7 +42,7 @@ PlaceHolder : 暂时无中日版官方翻译 暂空
 [options="header,footer" cols="s,s,s"]
 |=======================
 |中文|English|日本語
-
+|对象的应用|OREF / Object reference|无|
 |=======================
 
 
