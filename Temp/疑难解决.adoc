@@ -1,0 +1,3 @@
+
+如果卡bug了 或 需要重启整个InterSystem学习环境 使用下方链接 （会失去所有数据和设置，仅用于Sandbox IDE无法删除情况
+https://learning.intersystems.com/course/view.php?name=Java%20Build
