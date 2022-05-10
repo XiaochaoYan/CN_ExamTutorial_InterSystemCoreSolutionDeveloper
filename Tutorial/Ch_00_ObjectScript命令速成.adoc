@@ -87,7 +87,7 @@ SET b = "Systems"
 SET string = a_b  //连接 a b 
 WRITE string
 ----
-
+ 
 ==== 7.让用户输入字符串 READ 命令
 其中 +
 # 表示 新的屏幕 类似 window命令行中cls 或 Linux中的 Ctrl+L +
@@ -97,7 +97,7 @@ WRITE string
 READ #!!,"Please enter",!,"your name: ",x,"THANK YOU"
 ----
 
-==== 8. "?" 问号 趋势匹配 Pattern Matching 演算符 +
+==== 8. "?" 问号 趋势匹配 Pattern Matching 演算符 - 2018的老版文档 + 
 https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern1[EN_趋势匹配演算符_对照] +
 https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TCOS_Pattern2[EN_趋势匹配演算符_解释说明] +
 美国SSN号码一般遵循 3个数字 + 一个“-中横杠” + 2个数字 + 一个“-中横杠” + 4个数字的规律 +
