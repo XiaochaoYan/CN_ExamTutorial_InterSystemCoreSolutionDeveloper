@@ -9,6 +9,31 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript的实战
+== 步骤梗概 +
+=== 1.ObjectScript database query +
+根据提示进入 Web Terminal 进行SQL查询和数据的更改 +
+成功后 DB 的第一条 vendor_id 为 ETRADER 的记录 quantity_kg 属性会从 200 变成 300
+
+=== 2.Database query with ObjectScript and SQL +
+保持在 Web Terminal 中，根据提示进行 SQL查询，此次查询成功只会返回一列 vendor_id
+
+=== 3.Writing ObjectScript Classes
+在Sandbox IDE中在 /home/project/quickstarts-full-stack/services/cls/ICO 目录下新建 Test.cls +
+根据提示输入 SQL查询命令 并保存 +
+
+== 点击红线处原点可以保存
+img::IRIS_006[]
+
+=== 或者可以通过红线处任意选项保存 / 打开自动保存功能
+img::IRIS_007[]
+
+等待片刻，服务器端完成编译后，回到 Web Terminal +
+运行
+----
+do ##class(ICO.Test).QueryDB()
+----
+成功会返回和 2.Database query with ObjectScript and SQL 一样的结果
+
 
 
 === 未完
