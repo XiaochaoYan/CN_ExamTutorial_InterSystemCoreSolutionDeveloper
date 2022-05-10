@@ -3,5 +3,3 @@
 *May 10th - 10:00AM-12:00AM* IRIS学習　始めました。内容：Object Script と　Web Services　の結合運用 +
 *13:00 - 19:00*　Chaper4 のチュートリアル作成中 -> サーバー側のメンテナンスがあるのでChaper4 のチュートリアル作成一時中止　
 -> Ch_000_ObjectScript的OOP面向对象 / Ch_00_ObjectScript命令速成 のチュートリアルを完成
-
-May 11th (JST) 00:56 Server Problem still unsolved.
