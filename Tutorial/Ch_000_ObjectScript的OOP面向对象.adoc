@@ -50,13 +50,47 @@ Parameter PARAMNAME as Type [ Keywords ] = value;
 Property PropName as Classname(PARAM1=value,PARAM2=value) [ Keywords ] ;
 ----
 
-== 方法 Method +
+== 类方法 Class Method +
 类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method。 如果省去 as Classname 部分，则本方法不会返回值 +
 === 这里的 Classname 与 Class 关系并不大，可以理解为 C++ / JAVA 中的 返回值的数据类型(return type) +
 ----
 ClassMethod MethodName(arguments) as Classname [ Keywords]
 {
 //method implementation
+}
+----
+
+== 普通方法 Method 与 类方法 Class Method / 方法参数 Method Parameter 与 普通参数Parameter +
+----
+/// My first class
+Class Demo.Person Extends (%Persistent, %Library.Populate)
+{
+/// Person's name
+Property Name As %String [ Required ];
+/// Phone number
+Property Phone As %String;
+/// Age
+Property Age As %Integer; ///属性 Property 为所有此类的实例不共有的变量
+
+/// This is the sum of two integers
+ClassMethod Sum(A As %Integer = 0, B As %Integer = 0) As %Integer ///此处的A，B 参数Parameter为方法的参数，与最下方的Planet不同。
+{
+  set result = A + B
+  return result
+
+}
+
+/// Print out information 
+Method Print() As %Status
+{
+  write !, "This person is named ", ..Name,"." /// 因为使用了双点，这个Method 要求必须要有一个具体的人A作为实例才能工作
+  write !, ..Name, "’s phone number is", ..PhoneNumber,"."
+  write !, ..Name, " is ", ..Age, " years old."
+
+}
+
+/// Planet
+Parameter PLANET = "Earth"; ///此处的Parameter 在 Method 外面，实际作用为类似 静态常数Static Constant 变量，为所有此类的实例所共有。
 }
 ----
 
