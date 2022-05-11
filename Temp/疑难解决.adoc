@@ -1,3 +1,21 @@
 
 如果卡bug了 或 需要重启整个InterSystem学习环境 使用下方链接 （会失去所有数据和设置，仅用于Sandbox IDE无法删除情况
 https://learning.intersystems.com/course/view.php?name=Java%20Build
+
+Your InterSystems IRIS site has been launched,
+it will run for the next 6 days, 23 hours 58 minutes.
+
+IDE: 3000-0-b81b1802.labs.learning.intersystems.com/#/home/project
+InterSystems IRIS Username: tech
+InterSystems IRIS Password: demo
+
+Management Portal: 52773-1-b81b1802.labs.learning.intersystems.com/csp/sys/UtilHome.csp
+IDE Connections (including VSCode and Atelier)
+Host Server Address: 52773-1-b81b1802.labs.learning.intersystems.com
+Host Server Web Port: 80
+
+External Connections (including InterSystems Studio)
+InterSystems IP: 34.67.32.63
+InterSystems 51773 Port: 11577
+InterSystems 1972 Port: 29643
+
