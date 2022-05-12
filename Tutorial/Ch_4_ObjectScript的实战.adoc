@@ -37,7 +37,7 @@ do ##class(ICO.Test).QueryDB()
 
 
 
-=== 未完
+=== 以上
 
 == 官方资料 
 1. https://gettingstarted.intersystems.com/full-stack/part-two-rest-services/#getsandbox[EN_ObjectScript的实战] +
