@@ -10,31 +10,58 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript的实战
 
-== 步骤梗概 +
-=== 1.ObjectScript database query +
-根据提示进入 Web Terminal 进行SQL查询和数据的更改 +
-成功后 DB 的第一条 vendor_id 为 ETRADER 的记录 quantity_kg 属性会从 200 变成 300
+== 实例代码解析 +
 
-=== 2.Database query with ObjectScript and SQL +
-保持在 Web Terminal 中，根据提示进行 SQL查询，此次查询成功只会返回一列 vendor_id
+下方 类Class 的定义展示了一些常用的ObjectScript应用
 
-=== 3.Writing ObjectScript Classes
-在Sandbox IDE中在 /home/project/quickstarts-full-stack/services/cls/ICO 目录下新建 Test.cls +
-根据提示输入 SQL查询命令 并保存 +
-
-== 点击红线处原点可以保存
-image::IRIS_006.png[]
-
-=== 或者可以通过红线处任意选项保存 / 打开自动保存功能
-image::IRIS_007.png[]
-
-等待片刻，服务器端完成编译后，回到 Web Terminal +
-运行
 ----
-do ##class(ICO.Test).QueryDB()
-----
-成功会返回和 2.Database query with ObjectScript and SQL 一样的结果
+Class User.DemoClass
+{
 
+/// Generate a random number.
+/// This method can be called from outside the class.
+ClassMethod Random() [ Language = objectscript ]
+{
+    set rand=$RANDOM(10)+1        ; rand is an integer in the range 1-10
+    /// 上方的 RANDOM 方法前的 美元符号$ 代表这是一个 系统方法 System function
+    write "Your random number: "_rand
+    set name=..GetNumberName(rand)
+    write !, "Name of this number: "_name
+}
+
+/// Input a number.
+/// This method can be called from outside the class.
+ClassMethod Input() [ Language = objectscript ]
+{
+    read "Enter a number from 1 to 10: ", input
+    set name=..GetNumberName(input)
+    write !, "Name of this number: "_name
+}
+
+/// Given an number, return the name.
+/// This method can be called only from within this class.
+ClassMethod GetNumberName(number As %Integer) As %Integer [ Language = objectscript, Private ]
+{
+    set name=$CASE(number,1:"one",2:"two",3:"three",
+        4:"four",5:"five",6:"six",7:"seven",8:"eight",
+        9:"nine",10:"ten",:"other")
+    quit name
+}
+
+/// Write some interesting values.
+/// This method can be called from outside the class.
+ClassMethod Interesting() [ Language = objectscript ]
+{
+    write "Today's date: "_$ZDATE($HOROLOG,3)
+    write !,"Your installed version: "_$ZVERSION
+    write !,"Your username: "_$USERNAME
+    write !,"Your security roles: "_$ROLES
+}
+
+}
+----
+ 
+link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_symbols#:~:text=Special%20variable%20prefix,interactive%20subshell.++[EN_ObjectScript中美元符号的意义] +
 
 
 === 未完
@@ -43,6 +70,7 @@ do ##class(ICO.Test).QueryDB()
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_functions_lists[EN_ObjectScript详解] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
+4. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_symbols[EN_ObjectScript中的特殊符号]
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
