@@ -41,6 +41,7 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 15. https://learning.intersystems.com/course/view.php?id=967[EN_创建服务器端应用Building a Server-Side Application with InterSystems(新版Course] +
 16. https://learning.intersystems.com/totara/dashboard/index.php[EN_新版InterSystem教程入口] +
 17. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_VARIABLES[EN_特殊系统变量] +
+18. https://docs.intersystems.com/irislatest/csp/documatic/%25CSP.Documatic.cls?&LIBRARY=%25SYS&CLASSNAME=%25SYSTEM.Help[EN_%System变量] +
 
 === 以上
 
