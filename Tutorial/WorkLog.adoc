@@ -7,3 +7,4 @@
 Math 11th 10:00-19:00 サーバー側の不具合をメールを送りました。ObjectScript / SQL の学習を続きます。新しい「InterSystem Learning」の学習システムに切り替えました。
 
 Math　12th 9:30~ メールの返事を待っています。「Building a Server-Side Application with InterSystems」を始めました。
+https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_functions_arrays 
