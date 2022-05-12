@@ -15,7 +15,7 @@ Object Script 有 除了 类Class 方法Method 变量Variable(的类型/范围�
 还有 例行操作Routine / 命令Command / 系统类 %System / 系统变量 System Variable / 宏 Macro / InterSystem +
 尾部逻辑表达式 postconditional expression / 与其他系统很不一样的概念 +
 
-image::IRIS_011.png
+image::IRIS_011.png[]
 
 
 ----
