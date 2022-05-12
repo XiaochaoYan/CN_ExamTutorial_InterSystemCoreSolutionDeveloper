@@ -23,7 +23,7 @@ Class User.DemoClass
 ClassMethod Random() [ Language = objectscript ]
 {
     set rand=$RANDOM(10)+1        ; rand is an integer in the range 1-10
-    /// 上方的 RANDOM 方法前的 美元符号$ 代表这是一个 系统方法 System function
+    /// 上方的 RANDOM 方法前的 美元符号$ 代表这是一个 系统方法 System function 详细参照下方解释 和 文末4号链接
     write "Your random number: "_rand
     set name=..GetNumberName(rand)
     write !, "Name of this number: "_name
@@ -36,6 +36,7 @@ ClassMethod Input() [ Language = objectscript ]
     read "Enter a number from 1 to 10: ", input
     set name=..GetNumberName(input)
     write !, "Name of this number: "_name
+    ///上方 下划线_ 起了连接 字符串String 的作用
 }
 
 /// Given an number, return the name.
