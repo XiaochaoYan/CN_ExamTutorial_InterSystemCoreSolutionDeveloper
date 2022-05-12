@@ -11,8 +11,12 @@ ifndef::imagesdir[:imagesdir: ../Img]
 = ObjectScript的实战
 
 = 梗概
-Object Script 有 除了 类Class 方法Method 变量Variable(类型/范围等) +
-还有 例行操作Routine
+Object Script 有 除了 类Class 方法Method 变量Variable(的类型/范围等) 等编程概念外 +
+还有 例行操作Routine / 命令Command / 系统类 %System / 系统变量 System Variable / 宏 Macro / InterSystem +
+尾部逻辑表达式 postconditional expression / 与其他系统很不一样的概念 +
+
+image::IRIS_011.png
+
 
 ----
     set rand=$RANDOM(10)+1        ; rand is an integer in the range 1-10
@@ -28,6 +32,11 @@ Caret次方符号^ 常用来表示不需要实例的 例行操作Routine 也表�
 
 image::IRIS_009.png[]
 
+==编程易犯错误 +
+1.系统命令 Command的 语句 和 第一个参数Argument 之间必须是一个空格 (全角半角未知，默认半角) +
+2.中文 日文中的非ASCII字符，需要先通过 $CHAR 命令转化成 变量Variable 后才能进行 String的相关演算 + 
+
+
 === 未完
 
 == 官方资料 
@@ -37,6 +46,7 @@ image::IRIS_009.png[]
 4. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_symbols[EN_ObjectScript中的特殊符号] +
 5. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_VARIABLES[EN_特殊系统变量] +
 6. https://docs.intersystems.com/irislatest/csp/documatic/%25CSP.Documatic.cls?&LIBRARY=%25SYS&CLASSNAME=%25SYSTEM.Help[EN_%System变量] +
+7. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_macros[EN_Macro宏]
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
