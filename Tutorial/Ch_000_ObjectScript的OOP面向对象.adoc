@@ -78,7 +78,7 @@ Property Phone As %String;
 Property Age As %Integer; ///属性 Property 为所有此类的实例不共有的变量
 
 /// This is the sum of two integers
-ClassMethod Sum(A As %Integer = 0, B As %Integer = 0) As %Integer ///此处的A，B 参数Parameter为方法的参数，与最下方的Planet不同。
+ClassMethod Sum(A As %Integer = 0, B As %Integer = 0) As %Integer ///此处的A，B 参数Parameter为方法的参数，与最下方的Print()不同。
 {
   set result = A + B
   return result
