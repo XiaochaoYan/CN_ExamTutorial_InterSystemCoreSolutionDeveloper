@@ -8,4 +8,6 @@ Math 11th 10:00AM-19:00 サーバー側の不具合をメールを送りまし�
 
 Math　12th 9:30AM~17:30 メールの返事を待っています。「Building a Server-Side Application with InterSystems」の学習を続き、チュートリアルは作業中。
 
-May 13th 1:00AM - 3:00AM 「Building a Server-Side Application with InterSystems」、12：00AM　学習を再開しました。
+May 13th 1:00AM - 3:00AM 「Building a Server-Side Application with InterSystems」、12：00AM-18:00　学習を再開しました。
+
+May 14 09:00AM 作業再開
