@@ -42,6 +42,10 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 16. https://learning.intersystems.com/totara/dashboard/index.php[EN_新版InterSystem教程入口] +
 17. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_VARIABLES[EN_特殊系统变量] +
 18. https://docs.intersystems.com/irislatest/csp/documatic/%25CSP.Documatic.cls?&LIBRARY=%25SYS&CLASSNAME=%25SYSTEM.Help[EN_%System变量] +
+19. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_syntax[EN_ObjectScript语法] +
+20. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GORIENT_appx_identifiers[EN_ObjectScript命名规范] +
+
+
 
 === 以上
 
