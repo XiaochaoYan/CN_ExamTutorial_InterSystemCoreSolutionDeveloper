@@ -6,7 +6,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-ifndef::imagesdir[:imagesdir: ../images]
+ifndef::imagesdir[:imagesdir: ../Img]
 
 = 学习指南
 
@@ -24,7 +24,7 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 3.多举一反三，和同类产品做横向比较/思考IRIS在垂直产业链中的位置和作用 +
 
 = Core Developer 考点一览 +
-images::IRIS_013.png[]
+image::IRIS_013.png[]
 
 = 官方资料汇总 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[EN_CoreDeveloper考试概要] +
