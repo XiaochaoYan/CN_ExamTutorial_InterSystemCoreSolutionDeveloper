@@ -11,6 +11,11 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript_嵌入式SQL +
 
+=== SQL 错误代码 %SQLCODE +
+0 : 成功执行SQL查询 并且有数据 +
+100 ： 成功执行SQL查询 但是没有可用数据 +
+负值 ： SQL查询失败，常见情况 -400 为 泛用性致命错误(general purpose fatal error code) . +
+
 = 官方资料 +
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
