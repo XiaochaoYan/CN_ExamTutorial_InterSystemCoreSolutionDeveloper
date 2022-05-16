@@ -99,6 +99,31 @@ Parameter PLANET = "Earth"; ///此处的Parameter 在 Method 外面，实际作�
 }
 ----
 
+
+== 创建 PatDiagnosis类 的 实例并保存到数据库
+
+----
+ //create the object
+ set diagnosis=##class(MyApp.Clinical.PatDiagnosis).%New()
+
+ //set a couple of properties by using special variables
+ set diagnosis.Date=$SYSTEM.SYS.TimeStamp()
+ set diagnosis.EnteredBy=$username
+ 
+ //set other properties based on variables set earlier by 
+ //the user interface
+ set diagnosis.PatientID=patientid
+ set diagnosis.DiagnosedBy=clinicianid
+ set diagnosis.Code=diagcode
+ 
+ //save the data
+ //the next line tries to save the data and returns a status to indicate
+ //whether the action was successful
+ set status=diagnosis.%Save()
+ //always check the returned status
+ if $$$ISERR(status) {do $System.Status.DisplayError(status) quit status}
+----
+
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
