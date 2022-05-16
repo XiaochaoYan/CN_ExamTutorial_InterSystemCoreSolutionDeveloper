@@ -52,7 +52,7 @@ image::IRIS_013.png[]
 23. link:++https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_persobj#:~:text=In%20more%20detail,written%20to%20disk).++[EN_%SAVE命令详解] +
 24. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GOBJ_specialcos[EN_面对对象特有ObjectScript语言特性] +
 25. https://aws.amazon.com/quickstart/architecture/intersystems-iris/[EN_AWS&IRIS] +
-
+26. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
 
 
 === 以上
