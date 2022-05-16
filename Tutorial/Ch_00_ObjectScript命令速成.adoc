@@ -157,6 +157,7 @@ SET expr = ##class(Person).%New()
 3. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_strings[EN_String相关运算符] +
 4. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_cread#:~:text=!%20starts%20a%20new,a%20positive%20integer[EN_ObjectScript中特殊String字符]   +
 5. link:++https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_persobj#:~:text=In%20more%20detail,written%20to%20disk).++[EN_%SAVE命令详解]
+6. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GOBJ_specialcos[EN_面对对象特有ObjectScript语言特性]
 
 === 以上
 
