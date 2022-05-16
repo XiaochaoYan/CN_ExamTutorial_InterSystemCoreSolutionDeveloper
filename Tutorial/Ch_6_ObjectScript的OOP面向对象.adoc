@@ -124,11 +124,28 @@ Parameter PLANET = "Earth"; ///此处的Parameter 在 Method 外面，实际作�
  if $$$ISERR(status) {do $System.Status.DisplayError(status) quit status}
 ----
 
+= 参数传递
+默认情况下所有类型类型的 方法参数Argument 是传递数值(Pass by Value)，而不是传递应用(Pass by Reference)的。 +
+如需要传递引用时，需要在 方法参数Argument 声明时在前方加上 &或符号 ，且在使用时在 方法变量Argument 前加上 .单个小数点。 +
+----
+Start ; Raise an integer to a power.
+ READ !,"Integer= ",num  QUIT:num="" 
+ READ !,"Power= ",powr   QUIT:powr=""
+ SET output=$$Expo(num,powr,.result) ///注意实际使用时变量result前方的 .单个小数点
+ WRITE !,"Result= ",output
+ GOTO Start
+Expo(x,y,&z) ///注意声明时 变量z前方的 &或符号
+ SET z=x
+ FOR i=1:1:y {SET z=z*x}
+ QUIT z
+----
+
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
 3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_Class的定义与声明] +
 4. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_classes_classvar[EN_常见Class种类速查] +
+5. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
 
 
 === 以上
