@@ -25,6 +25,25 @@ image::IRIS_014.png[]
 官方鼓励在提取单个特定数据的时候使用ObjectScript的 %OpenId() ，在需要统计数据如 Count 或者 提取大量符合特定条件的数据时使用 SQL 相关操作。 +
 所有调用 非原生SQL 代码的语法和原生SQL都有区别，注意区分。 +
 
+== Embedded SQL嵌入式SQL +
+有 1.有游标的种类Cursor-based SQL 2.无游标的种类 Non-Cursor SQL +
+Cursor 类似 迭代器Iterator 用于遍历返回的 数据集合 。 +
+特征：无论那种都会只用 into: 语句将结果暂时存储在一个ObjectScript变量中 +
+优点：最快的可以接受 参数Parameter 进行一定更改的查询方法 +
+the fastest query that uses input parameters, you should use embedded SQL +
+
+== Class Query 类查询 +
+特征: 新建 Query 实例，输入 SQL查询语句 并使用 %SQLQuery [SQLproc] 声明返回类别 +
+优势：可以保存，然后长期再次利用 +
+If you need your query to be reusable, you should use a class query. +
+
+== Dynamic Query 动态查询 +
+优点：可以依靠其他方法动态生成 SQL查询语句 ，最为灵活 +
+If the query is a SELECT query in one case but a DELETE query in another case, use dynamic SQL. +
+特征：先将 SQL查询语句 作为 字符串String 声明，然后新建 %SQL.Satement 进行查询 +
+
+
+
 === SQL 错误代码 %SQLCODE +
 0 : 成功执行SQL查询 并且有数据 +
 100 ： 成功执行SQL查询 但是没有可用数据 +
@@ -32,7 +51,8 @@ image::IRIS_014.png[]
 
 = 官方资料 +
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
-2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
+2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_Class Query]
+. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
 
 === 以上
 
