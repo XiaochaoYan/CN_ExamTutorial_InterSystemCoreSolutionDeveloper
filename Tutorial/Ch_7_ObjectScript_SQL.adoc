@@ -21,6 +21,8 @@ image::IRIS_014.png[]
 3.使用 DO $SYSTEM.SQL.Shell() 的 SQL命令行交互页面，直接进行 SQL原生查询 +
 4.使用 Management Portal 的 SQL图形交互页面，直接进行 SQL原生查询 +
 
+注意：官方鼓励在提取单个特定数据的时候使用ObjectScript的 %OpenId() ，在需要统计数据如 Count 或者 提取大量符合特定条件的数据时使用 SQL 相关操作 +
+
 === SQL 错误代码 %SQLCODE +
 0 : 成功执行SQL查询 并且有数据 +
 100 ： 成功执行SQL查询 但是没有可用数据 +
