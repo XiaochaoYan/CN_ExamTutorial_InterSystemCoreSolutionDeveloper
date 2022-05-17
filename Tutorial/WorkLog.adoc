@@ -12,5 +12,5 @@ May 13th 1:00AM - 3:00AM 「Building a Server-Side Application with InterSystems
 
 May 14 09:00AM-12:00AM 13:00-17:00 作業再開 SQL / ObjectScript Routine に関する学習 18:00-20:00会議
 
-May 15 10:00~作業再開 SQ / Server Side application
+May 15 10:00~17:30 SQL / Server Side application に関する学習、SQLは完成。
 
