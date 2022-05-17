@@ -11,6 +11,10 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript_SQL +
 
+== 数据库相关名词对应
+
+image::IRIS_014.png[]
+
 == SQL 在InterSystem中的使用方式 +
 1.使用 &sql 语法嵌入 WebTerminal 等使用 ObjectScript 的场合使用，只适用单行以内的SQL查询 +
 2.使用  %SQL.Statement 类，新建实例然后使用 +
