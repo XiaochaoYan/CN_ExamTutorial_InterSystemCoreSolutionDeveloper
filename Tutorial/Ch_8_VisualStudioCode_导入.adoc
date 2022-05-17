@@ -1,4 +1,3 @@
-
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -8,8 +7,9 @@ ifdef::env-github[]
 endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
+= VisualStudioCode_导入 +
 
-= 官方资料 +
+= 官方资料 + 
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_VSCode导入] +
 
 === 未完
