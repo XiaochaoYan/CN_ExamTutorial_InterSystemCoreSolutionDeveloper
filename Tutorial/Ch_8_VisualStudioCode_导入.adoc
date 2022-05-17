@@ -8,3 +8,17 @@ ifdef::env-github[]
 endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
+
+= 官方资料 +
+1. https://learning.intersystems.com/course/view.php?id=1458[EN_VSCode导入] +
+
+=== 未完
+
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+|=======================
+
