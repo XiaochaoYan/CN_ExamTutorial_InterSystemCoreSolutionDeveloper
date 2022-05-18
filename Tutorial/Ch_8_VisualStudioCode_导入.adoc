@@ -32,6 +32,7 @@ image::IRIS_016.png[]
 
 = 官方资料 + 
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_VSCode导入] +
+2. https://learning.intersystems.com/course/view.php?id=967[EN_练习：新建 类 和 实例]
 
 === 未完
 
