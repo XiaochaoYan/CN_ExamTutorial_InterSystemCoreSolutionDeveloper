@@ -34,6 +34,7 @@ image::IRIS_016.png[]
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_视频VSCode导入] +
 2. https://learning.intersystems.com/course/view.php?id=967[EN_练习：新建 类 和 实例] +
 3. https://learning.intersystems.com/course/view.php?name=UsingInterSystemsIDEs[EN_文字版VSCode导入教程] +
+4. https://learning.intersystems.com/course/view.php?id=1778&ssoPass=1[EN_视频 VSCode新建 类/实例 教程] +
 === 未完
 
 
