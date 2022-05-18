@@ -55,7 +55,7 @@ image::IRIS_013.png[]
 26. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
 27. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
 28. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_类查询 Class Query] +
-29 https://learning.intersystems.com/course/view.php?id=1322[EN_Management Portal 教程] +
+29. https://learning.intersystems.com/course/view.php?id=1322[EN_Management Portal 教程] +
 
 === 以上
 
