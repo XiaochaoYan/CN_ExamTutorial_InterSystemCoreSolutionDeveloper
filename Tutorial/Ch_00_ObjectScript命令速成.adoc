@@ -11,15 +11,15 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript 常用命令中文速查 +
 
-==== 所有在WebTerminal中的ObjectScript命令大小写不敏感 SET / Set / set 均一样 +
+所有在WebTerminal中的ObjectScript命令大小写不敏感 SET / Set / set 均一样 +
 
-==== 但是变量名和其他的如SQL命令依然大小写敏感 +
+但是变量名和其他的如SQL命令依然大小写敏感 +
 
-==== ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
+ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
 
-==== ObjectScript 变量对变量类型_不敏感_ 属于 Typeless Language +
+ObjectScript 变量对变量类型 *不敏感* 属于 Typeless Language +
 
-==== 所有 类的实例的属性Property 默认值是空的 字符串String +
+所有 类的实例的属性Property 默认值是空的 字符串String +
 
 {nbsp} +
 
