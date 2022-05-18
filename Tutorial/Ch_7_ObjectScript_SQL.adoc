@@ -11,7 +11,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript_SQL +
 
-== 数据库相关名词对应
+== 数据库相关名词 在 InterSystem 中的对应
 
 image::IRIS_014.png[]
 
