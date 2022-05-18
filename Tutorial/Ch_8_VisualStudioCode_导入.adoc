@@ -9,6 +9,21 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = VisualStudioCode_导入 +
 
+= 插件安装 +
+在vscode的插件市场中中安装一下 4个插件 +
+1. InterSystem Object Script Extension Pack +
+2. The InterSystems ObjectScript extension +
+3. The InterSystems Server Manager +
+4. The InterSystems Language Server +
+
+image::IRIS_016.png[]
+
+安装成功后在 vscode 的左侧会出现 InterSytem 的图标 +
+
+= 连接 工作区Workspace +
+
+
+
 = 官方资料 + 
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_VSCode导入] +
 
