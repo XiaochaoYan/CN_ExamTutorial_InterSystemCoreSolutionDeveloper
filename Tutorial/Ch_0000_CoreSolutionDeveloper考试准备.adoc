@@ -10,8 +10,18 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 
 = InterSystem CoreDeveloper 考试准备 +
+Downloadable material are for education Purpose ONLY. All rights belong to their respective owners. +
+下载只作为教育用途，所有材料的各项权利由各权力方所保有。 +
+
+= 考试政策
+1. 62道题 需要达到60正确率 +
+2. 第2次重考需要等 24小时，第3-5次重考需要等 14天 。第1次考试后12月内最多重考5次（包含第1次）。
+3.
 
 
+== 考试用软件 QuestionMark 打开后界面 +
+
+image::IRIS_017.png[]
 
 
 = 官方资料 +
@@ -19,3 +29,5 @@ ifndef::imagesdir[:imagesdir: ../Img]
 2. https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[考试例题]
 3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
 4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark] +
+6. https://www.intersystems.com/certification-program/certification-exam-policies/[考试环境说明/重考政策]
