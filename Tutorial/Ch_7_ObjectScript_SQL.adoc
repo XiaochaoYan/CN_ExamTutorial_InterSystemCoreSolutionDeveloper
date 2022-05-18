@@ -51,8 +51,8 @@ If the query is a SELECT query in one case but a DELETE query in another case, u
 
 = 官方资料 +
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
-2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_Class Query]
-. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
+2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_Class Query] +
+3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
 
 === 以上
 
