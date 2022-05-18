@@ -29,7 +29,7 @@ image::IRIS_014.png[]
 有 1.有游标的种类Cursor-based SQL 2.无游标的种类 Non-Cursor SQL +
 Cursor 类似 迭代器Iterator 用于遍历返回的 数据集合 。 +
 特征：无论那种都会只用 into: 语句将结果暂时存储在一个ObjectScript变量中 +
-优点：最快的可以接受 参数Parameter 进行一定更改的查询方法 +
+优点：最快的可以通过 参数Parameter 进行一定修改的查询方法 +
 the fastest query that uses input parameters, you should use embedded SQL +
 
 == Class Query 类查询 +
