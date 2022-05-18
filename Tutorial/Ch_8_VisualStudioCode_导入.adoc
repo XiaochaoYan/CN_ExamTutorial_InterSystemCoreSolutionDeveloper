@@ -31,9 +31,9 @@ image::IRIS_016.png[]
 5. 完成连接，之后所有本地修改会和服务器端同步 +
 
 = 官方资料 + 
-1. https://learning.intersystems.com/course/view.php?id=1458[EN_VSCode导入] +
-2. https://learning.intersystems.com/course/view.php?id=967[EN_练习：新建 类 和 实例]
-
+1. https://learning.intersystems.com/course/view.php?id=1458[EN_视频VSCode导入] +
+2. https://learning.intersystems.com/course/view.php?id=967[EN_练习：新建 类 和 实例] +
+3. https://learning.intersystems.com/course/view.php?name=UsingInterSystemsIDEs[EN_文字版VSCode导入教程] +
 === 未完
 
 
