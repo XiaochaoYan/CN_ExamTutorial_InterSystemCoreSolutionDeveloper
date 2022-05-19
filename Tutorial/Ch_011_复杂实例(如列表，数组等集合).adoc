@@ -15,7 +15,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 类似于之前接触过的系统方法 $Piece，但是 $List 多用于包括 %String 的所有类 +
 而 $Piece 只适用于 %String ,且不同数据中间必须要用 分隔符delimiter 分隔开 +
 
-=== $List 自带的方法 +
+=== $List 常用的方法 +
 1. $ListBuild() 返回一个由参数组成的新 $List +
 returns a list built from items. Concatenating lists creates a new list.
 
@@ -28,12 +28,36 @@ returns the number of items in the list.
 4. $ListFind(实例) 返回指定实例的数组位置坐标，如没找到则返回 0 +
 searches the list for an item, and returns its item number.
 
+== 数组 Array +
+语法为 任意变量后加上 ()圆括号，括号内为数据的坐标 +
+*注Java c++中常称为 index number ，ObjectScript中称为 subscript +
+坐标和 $List 不同，不一定要是按顺序摆列的整数，可以 正负浮点数 或是 字符串String。唯一不能用作 坐标Subscript 的是 ""空字符串 。 +
+----
+USER>set a(3, 7) = 4 + 2
+
+USER>write a(3, 7)
+6
+----
+
+image::IRIS_018.gif[]
+
+== Ordered Tree 顺序树/多维数组 +
+在ObjectScript中没有传统的多为数组，可以直接采用多维的 数组坐标Subscript ，如上方的 (3,7) 这个2维坐标系 +
+
+image::IRIS_019.png[]
+
+----
+USER>zwrite A(5)
+A(5)=4
+A(5,"C")=4
+A(5,"D",-2.7)=4
+----
+
 = 官方资料 +
-1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
-2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
-3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_Class的定义与声明] +
-4. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_classes_classvar[EN_常见Class种类速查] +
-5. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_mdarrays[EN_数组Array] +
+2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Arrays[EN_多维数组Multi-dimensional Array/有序树Ordered Tree] +
+3. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Lists[EN_列表List] +
+
 
 
 === 以上
