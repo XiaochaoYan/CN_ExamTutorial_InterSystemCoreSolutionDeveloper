@@ -1,0 +1,51 @@
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+
+= ObjectScript的 复杂实例 Complex Object +
+
+== 表单 $List +
+类似于之前接触过的系统方法 $Piece，但是 $List 多用于包括 %String 的所有类 +
+而 $Piece 只适用于 %String ,且不同数据中间必须要用 分隔符delimiter 分隔开 +
+
+=== $List 自带的方法 +
+1. $ListBuild() 返回一个由参数组成的新 $List +
+returns a list built from items. Concatenating lists creates a new list.
+
+2. $List(List数据组，类型为整数的数组位置坐标) 数据组中 指定坐标上的 实例，加上 *星号 时，为从后往前进行数组位置坐标计算 +
+returns a specific item in the list. You can use an asterisk (*) to represent the last item, and *-n to count items backwards from the end.
+
+3. $ListLength(List数据组) 返回数据组的长度 +
+returns the number of items in the list.
+
+4.$ListFind(实例) 返回指定实力的数组位置坐标，如没找到则返回 0 +
+searches the list for an item, and returns its item number.
+
+= 官方资料 +
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
+2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
+3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_Class的定义与声明] +
+4. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_classes_classvar[EN_常见Class种类速查] +
+5. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
+
+
+=== 以上
+
+
+== 名词对照表
+PlaceHolder : 暂时无中日版官方翻译 暂空
+[options="header,footer" cols="s,s,s"]
+|=======================
+|中文|English|日本語
+|对【对象】/【实例】的引用|OREF / Object reference|无|
+|=======================
+
+
+    
