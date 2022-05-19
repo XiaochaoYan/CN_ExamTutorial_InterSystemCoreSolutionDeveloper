@@ -17,6 +17,7 @@ Downloadable material are for education Purpose ONLY. All rights belong to their
 = 考试政策
 1. 考试只有英文 2个小时 / 62道题 需要达到 66%正确率 。 +
 2. 第2次重考需要等 24小时，第3-5次重考需要等 14天 。第1次考试后12月内最多重考5次（包含第1次）。 +
+3. 成功后有5年有效时间，但是在通知失效前都继续有效？（待确认 +
 
 
 == 考试用软件 QuestionMark 打开后界面 +
