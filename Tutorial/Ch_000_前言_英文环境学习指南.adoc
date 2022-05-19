@@ -57,6 +57,7 @@ image::IRIS_013.png[]
 28. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_类查询 Class Query] +
 29. https://learning.intersystems.com/course/view.php?id=1322[EN_Management Portal 教程] +
 30. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_syntax#GCOS_syntax_whitespace[EN_空格符 相关语言特性] +
+31. https://learning.intersystems.com/course/view.php?id=289[EN_ObjectScript入门(新版] +
 
 === 以上
 
