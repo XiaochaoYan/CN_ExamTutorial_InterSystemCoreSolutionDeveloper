@@ -9,7 +9,7 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
 
-= ObjectScript的 复杂实例 Complex Object +
+= ObjectScript的 复杂实例集合 Complex Object +
 
 == 表单 $List +
 类似于之前接触过的系统方法 $Piece，但是 $List 多用于包括 %String 的所有类 +
