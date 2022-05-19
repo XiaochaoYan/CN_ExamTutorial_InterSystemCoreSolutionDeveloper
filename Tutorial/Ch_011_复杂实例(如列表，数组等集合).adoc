@@ -25,7 +25,7 @@ returns a specific item in the list. You can use an asterisk ( * ) to represent 
 3. $ListLength(List数据组) 返回数据组的长度 +
 returns the number of items in the list.
 
-4. $ListFind(实例) 返回指定实力的数组位置坐标，如没找到则返回 0 +
+4. $ListFind(实例) 返回指定实例的数组位置坐标，如没找到则返回 0 +
 searches the list for an item, and returns its item number.
 
 = 官方资料 +
