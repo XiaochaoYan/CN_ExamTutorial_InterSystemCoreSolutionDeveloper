@@ -39,12 +39,17 @@ USER>write a(3, 7)
 6
 ----
 
-image::IRIS_018.gif[]
+
 
 == Ordered Tree 顺序树/多维数组 +
+
+image::IRIS_018.gif[]
+
 在ObjectScript中没有传统的多为数组，可以直接采用多维的 数组坐标Subscript ，如上方的 (3,7) 这个2维坐标系 +
 
 image::IRIS_019.png[]
+
+上方 顺序树Ordered Tree的各个元素值如下，注意 数组坐标Subscript 并不都为正整数。 +
 
 ----
 USER>zwrite A(5)
