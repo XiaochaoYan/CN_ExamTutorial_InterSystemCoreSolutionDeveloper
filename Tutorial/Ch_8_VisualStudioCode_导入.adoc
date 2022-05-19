@@ -26,9 +26,10 @@ image::IRIS_015.png[]
 3. 输入 +加号 选择新的服务器 +
 4. 输入服务器 名字/IP等 信息，如使用官方的 Learning Lab 请使用下图中的 IP地址/端口，默认用户名为 tech ，密码为 demo ,端口为80 +
 
-image::IRIS_016.png[]
 
-5. 完成连接，之后所有本地修改会和服务器端同步 +
+image::IRIS_016.png[] 
+
+=== 完成连接，之后所有本地修改会在保存后和服务器端同步 +
 
 = 官方资料 + 
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_视频VSCode导入] +
