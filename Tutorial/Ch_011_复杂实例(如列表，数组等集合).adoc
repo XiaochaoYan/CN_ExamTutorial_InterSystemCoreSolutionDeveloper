@@ -20,7 +20,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 returns a list built from items. Concatenating lists creates a new list.
 
 2. $List(List数据组，类型为整数的数组位置坐标) 数据组中 指定坐标上的 实例，加上 *星号 时，为从后往前进行数组位置坐标计算 +
-returns a specific item in the list. You can use an asterisk (*) to represent the last item, and *-n to count items backwards from the end.
+returns a specific item in the list. You can use an asterisk (\*) to represent the last item, and \*-n to count items backwards from the end.
 
 3. $ListLength(List数据组) 返回数据组的长度 +
 returns the number of items in the list.
