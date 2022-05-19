@@ -62,6 +62,7 @@ A(5,"D",-2.7)=4
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_mdarrays[EN_数组Array] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Arrays[EN_多维数组Multi-dimensional Array/有序树Ordered Tree] +
 3. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Lists[EN_列表List] +
+4. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Global[EN_全局变量Global] +
 
 
 
