@@ -13,7 +13,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 所有在WebTerminal中的ObjectScript命令大小写不敏感 SET / Set / set 均一样 +
 
-但是变量名和其他的如SQL命令依然大小写敏感 +
+但是 变量名 和 其他的语言 如SQL命令依然可能大小写敏感 +
 
 ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
 
@@ -23,7 +23,8 @@ ObjectScript 变量对变量类型 *不敏感* 属于 Typeless Language +
 
 {nbsp} +
 
-==== 注释需要在 任意空白字符 后接1-3个 /正斜杠 ，不同数量见+
+==== 单行注释需要在 任意空白字符 后接2-3个 /正斜杠 ，不同数量仅在正对 系统宏Macro 命令时有区别 +
+==== 多行注释 用 */ 开始，然后 /* 结束 +
 ==== ObjectScript 中的 数组Array 表单List 等的位置坐标时从 1 开始计数的 +
 ----
 SET x=$LISTBUILD("A",,"C","D")
