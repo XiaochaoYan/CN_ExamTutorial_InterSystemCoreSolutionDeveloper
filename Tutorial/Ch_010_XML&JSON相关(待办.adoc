@@ -17,6 +17,9 @@ JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 
 == %DynamicObject 常用方法 +
 1. %Get() 2. %GetIterator() 3. %IsDefined() 4. %OnNew() 5. %Remove() 6. %Set() +
+常用方法_官方例子 +
+
+image::IRIS_022.png[]
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
