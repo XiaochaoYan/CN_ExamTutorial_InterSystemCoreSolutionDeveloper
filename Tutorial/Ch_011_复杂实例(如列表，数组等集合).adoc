@@ -45,7 +45,7 @@ USER>write a(3, 7)
 
 image::IRIS_018.gif[]
 
-在ObjectScript中没有传统的多为数组，可以直接采用多维的 数组坐标Subscript ，如上方的 (3,7) 这个2维坐标系 +
+在ObjectScript中没有传统的多维数组，可以直接采用多维的 数组坐标Subscript ，如上方的 (3,7) 这个2维坐标系 +
 
 image::IRIS_019.png[]
 
