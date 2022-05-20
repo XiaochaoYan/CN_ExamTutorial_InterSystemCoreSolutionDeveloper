@@ -8,4 +8,10 @@ ifdef::env-github[]
 endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
+= XML & JSON 相关在 ObjectScript 中的应用 +
+JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
+在 ObjectScript 中有以下 3个 类Class 与 JSON有关 +
+1. %DynamicObject +
+2. %DynamicArray +
+3. %DynamicAbstractObject (the common superclass） 抽象类，被上 2 者继承 +
 
