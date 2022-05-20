@@ -10,6 +10,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = JDBC/OBDC 数据库接口
 
+ODBC JDBC 都有主流的 Windows / Unix 等平台支持 +
+
 == JDBC (Java Database Connectivity) +
 *集成在一个 .jar 文件中 需要加到本地的 CLASSPATH 中* +
 特点：
