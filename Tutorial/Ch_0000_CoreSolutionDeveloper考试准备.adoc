@@ -19,11 +19,13 @@ Downloadable material are for education Purpose ONLY. All rights belong to their
 2. 第2次重考需要等 24小时，第3-5次重考需要等 14天 。第1次考试后12月内最多重考5次（包含第1次）。 +
 3. 成功后有5年有效时间，但是在通知失效前都继续有效？（待确认 +
 
+=== 新版本考试软件测试 +
+https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软件测试] +
+点击文中下载连接，双击打开后，可以打开考试模拟界面 +
+需要测试 1.能否正常打开考试界面 2.能否打开开始用的参考文档 +
 
-== 考试用软件 QuestionMark 打开后界面 +
-
-image::IRIS_017.png[]
-
+=== 效果图 +
+image::IRIS_021.png[]
 
 = 官方资料 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[考试简介] +
@@ -31,4 +33,12 @@ image::IRIS_017.png[]
 3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
 4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
 5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark] +
-6. https://www.intersystems.com/certification-program/certification-exam-policies/[考试环境说明/重考政策]
+6. https://www.intersystems.com/certification-program/certification-exam-policies/[考试环境说明/重考政策] +
+7. https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软件测试] +
+
+= 下方为已存档的老版本 内容
+
+== 考试用软件 QuestionMark 打开后界面 +
+
+image::IRIS_017.png[]
+
