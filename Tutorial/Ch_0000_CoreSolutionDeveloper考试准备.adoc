@@ -30,9 +30,9 @@ image::IRIS_021.png[]
 = 官方资料 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[考试简介] +
 2. https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[考试例题]
-3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
-4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
-5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark] +
+3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟(过期)] +
+4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检(过期)] +
+5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark(过期)] +
 6. https://www.intersystems.com/certification-program/certification-exam-policies/[考试环境说明/重考政策] +
 7. https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软件测试] +
 
