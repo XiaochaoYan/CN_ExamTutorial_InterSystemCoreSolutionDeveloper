@@ -21,3 +21,4 @@ JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
+3. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON Course教程] +
