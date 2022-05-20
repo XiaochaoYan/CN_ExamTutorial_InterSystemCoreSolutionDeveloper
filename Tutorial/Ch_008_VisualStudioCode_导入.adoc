@@ -31,11 +31,18 @@ image::IRIS_016.png[]
 
 === 完成连接，之后所有本地修改会在保存后和服务器端同步 +
 
+= 考点 +
+各种 IDE 连接时需要提供得信息，如用 JAVA + JDBC 得连接就需要 1.IP 2.端口 3.名空间 +
+----
+jdbc:IRIS://ipAddress:superserverPort/namespace
+----
+
 = 官方资料 + 
 1. https://learning.intersystems.com/course/view.php?id=1458[EN_视频VSCode导入] +
 2. https://learning.intersystems.com/course/view.php?id=967[EN_练习：新建 类 和 实例] +
 3. https://learning.intersystems.com/course/view.php?name=UsingInterSystemsIDEs[EN_文字版VSCode导入教程] +
 4. https://learning.intersystems.com/course/view.php?id=1778&ssoPass=1[EN_视频 VSCode新建 类/实例 教程] +
+5. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AB_idesetup[EN_IDE连接_拓展阅读]
 
 === 未完
 
