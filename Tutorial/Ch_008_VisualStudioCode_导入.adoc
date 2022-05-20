@@ -44,7 +44,7 @@ jdbc:IRIS://ipAddress:superserverPort/namespace
 4. https://learning.intersystems.com/course/view.php?id=1778&ssoPass=1[EN_视频 VSCode新建 类/实例 教程] +
 5. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AB_idesetup[EN_IDE连接_拓展阅读]
 
-=== 未完
+=== 以上
 
 
 == 名词对照表
