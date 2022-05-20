@@ -20,7 +20,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 3. Implementations of third party APIs for Hibernate and Apache Spark. +
 有第3方 Hibernate/Apache Spark 支持 +
 
-JDBC的 连接命令 最多可以支持 1.主机地址 2.端口 3.名空间 这3项必须的参数 +
+=== JDBC的 连接命令 最多可以支持 1.主机地址 2.端口 3.名空间 这3项必须的参数 +
 
 和 4.Log文件位置（如未提供，不会开启Log功能） 5.Event相应事件 （如 %OnTranCommit 事件会在数据库确定交易前触发) + 
 6.TCP_NoDelay 选项默认关闭 （和 Nagle's algorithm相关）7.TLS Transport Layer Security 选项 默认关闭 +
