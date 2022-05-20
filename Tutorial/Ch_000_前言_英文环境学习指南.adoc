@@ -60,6 +60,7 @@ image::IRIS_013.png[]
 31. https://learning.intersystems.com/course/view.php?id=289[EN_ObjectScript入门(新版] +
 32. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
 33. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
+34. 3. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON Course教程] +
 
 
 === 以上
