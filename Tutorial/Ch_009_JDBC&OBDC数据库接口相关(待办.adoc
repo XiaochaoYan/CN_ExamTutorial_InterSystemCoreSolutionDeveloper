@@ -37,7 +37,7 @@ jdbc:IRIS://<host>:<port>/<namespace>/<logfile>:<eventclass>:<nodelay>:<ssl>
 *拥有图形界面 且 不需要手动更改 URL * +
 和JDBC 拥有一样的参数选项，但是 ODBC 集成在了 IRIS 的安装包中，一般不用额外安装 +
 
-iamge::IRIS_021.png[]
+image::IRIS_020.png[]
 
 = 考点
 各种 IDE 连接时需要提供的信息，如用 JAVA + JDBC 得连接就需要
