@@ -32,7 +32,8 @@ image::IRIS_016.png[]
 === 完成连接，之后所有本地修改会在保存后和服务器端同步 +
 
 = 考点 +
-各种 IDE 连接时需要提供得信息，如用 JAVA + JDBC 得连接就需要 1.IP 2.端口 3.名空间 +
+各种 IDE 连接时需要提供的信息，如用 JAVA + JDBC 得连接就需要 +
+1.IP 2.端口 3.名空间 +
 ----
 jdbc:IRIS://ipAddress:superserverPort/namespace
 ----
