@@ -34,7 +34,7 @@ jdbc:IRIS://<host>:<port>/<namespace>/<logfile>:<eventclass>:<nodelay>:<ssl>
 连接，目前赶考试进度中 暂不赘述 +
 
 = ODBC (Open Database Connectivity) +
-*拥有图形界面 且 不需要手动更改 URL * +
+*拥有图形界面 且 不需要手动更改 URL* +
 和JDBC 拥有一样的参数选项，但是 ODBC 集成在了 IRIS 的安装包中，一般不用额外安装 +
 
 image::IRIS_020.png[]
