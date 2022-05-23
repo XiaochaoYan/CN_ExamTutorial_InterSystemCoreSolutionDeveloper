@@ -30,6 +30,15 @@ ObjectScript 中的 数组Array 表单List 等的位置坐标时从 *1* 开始�
 SET x=$LISTBUILD("A",,"C","D")
 WRITE $LISTFIND(x,"C")   ; returns 3
 ----
+但是 %DynamicArray 类的数组坐标是从 0 开始计算的 +
+----
+set reviewObject = ##class(%DynamicArray).%New() 
+do reviewObject.%Push("1st")
+do reviewObject.%Push("2nd")
+write reviewObject.%Get(0)  // 得到 1st
+write reviewObject.%Get(1)  // 得到 2nd
+----
+
 
 ==== 演算符优先级 Operator Precedence +
 === 和其他语言完全不同，采用严格的从左到右顺序,无论是逻辑还是算数或是其他演算符 +
