@@ -30,7 +30,7 @@ ObjectScript 中的 数组Array 表单List 等的位置坐标时从 *1* 开始�
 SET x=$LISTBUILD("A",,"C","D")
 WRITE $LISTFIND(x,"C")   ; returns 3
 ----
-但是 %DynamicArray 类的数组坐标是从 0 开始计算的 +
+=== 但是 %DynamicArray 类的数组坐标是从 0 开始计算的 +
 ----
 set reviewObject = ##class(%DynamicArray).%New() 
 do reviewObject.%Push("1st")
