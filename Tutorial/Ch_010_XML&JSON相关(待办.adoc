@@ -48,7 +48,7 @@ do tagsArray.%Push("Romantic")
 
 set reviewObject.tags = tagsArray
 
-write reviewObject.%ToJSON()
+write reviewObject.%ToJSON()  //最后一步将打印出 JSON，实际操作中可以存为其他变量再导出
 ----
 
 
