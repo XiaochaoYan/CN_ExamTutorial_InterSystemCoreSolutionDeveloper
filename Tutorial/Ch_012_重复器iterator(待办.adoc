@@ -13,4 +13,4 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 
 = 官方资料 +
-1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 重复其Iterator] +
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 重复器 Iterator] +
