@@ -8,9 +8,10 @@ ifdef::env-github[]
 endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
-= XML & JSON 相关在 ObjectScript 中的应用 +
+= XML & JSON 相关在 ObjectScript 中的应用 + 
+
 JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
-在 ObjectScript 中有以下 3个 类Class 与 JSON有关 +
+在 ObjectScript 中有以下 3个 类Class 与 JSON直接有关的 +
 1. %DynamicObject +
 2. %DynamicArray +
 3. %DynamicAbstractObject (the common superclass） 抽象类，被上 2 者继承 +
@@ -62,6 +63,17 @@ set reviewObject = {} +
 
 *注意* ObjectScript 中的 数组Array 表单List 等的位置坐标时从 1 开始计数的,而不是 0 +
 但是 %DynamicArray 类的数组坐标是从 0 开始计算的
+
+== %JSON.Adaptor +
+如果一个 类Class 需要使用 %JSONImport() / %JSONExport() 等JSON命令 +
+----
+Class Model.Location Extends (%Persistent, %JSON.Adaptor)
+  {
+    Property City As %String;
+    Property Country As %String;
+  }
+----
+则一般声明 类Class 时除了 %Persistent 还会继承 %JSON.Adaptor +
 
 == JSON汇总 +
 ----
