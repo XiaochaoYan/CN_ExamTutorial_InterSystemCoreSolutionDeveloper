@@ -10,13 +10,21 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = XML & JSON 相关在 ObjectScript 中的应用 + 
 
-= JSON相关 +
+= JSON & XML 相关 +
 
 JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 在 ObjectScript 中有以下 3个 类Class 与 JSON直接有关的 +
 1. %DynamicObject +
 2. %DynamicArray +
 3. %DynamicAbstractObject (the common superclass） 抽象类，被上 2 者继承 +
+
+%Set(), %Push() 这两个 %DynamicAbstractObject类 下的方法 有一个特性叫做 Method Chain 方法链 +
+顾名思义，因为这两个方法返回值为原有集合的应用，故可以无限首尾相连链接 +
+其中链接中间的方法必须为 %Set() 或 %Push() ，最后的方法可以为任意合法的方法 +
+https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#GJSON_create_chain[EN_官方文档 方法链] +
+----
+write [].%FromJSON(jstring).%Set(1,"one").%Push("two").%Push("three").%Set(1,"final value").%ToJSON()
+----
 
 == %DynamicObject 常用方法 +
 1. %Get() 2. %GetIterator() 3. %IsDefined() 4. %OnNew() 5. %Remove() 6. %Set() +
