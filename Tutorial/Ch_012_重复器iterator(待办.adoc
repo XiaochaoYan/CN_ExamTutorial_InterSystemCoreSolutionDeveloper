@@ -10,6 +10,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 
 = ObjectScript的 重复器 iterator +
+
 重复器Iterator 是在高级编程语言中常见的一种设计，主要功能为遍历一个未知长度的 合集Collection +
 *常见用法* +
 1. 为一个 变量Variable 赋值为 某个集合的 %GetIterator() +
