@@ -10,6 +10,16 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 
 = ObjectScript的 重复器 iterator +
+重复器Iterator 是在高级编程语言中常见的一种设计，主要功能为遍历一个未知长度的 合集Collection +
+*常见用法* +
+值得注意的是与普通打印整个 合集Collection 的单一 FOR / While 循环不同， 重复器Iterator 会自动略过 空值null 
+----
+   set test = ["a","b","c"]  // dynamic arrays are zero-based
+   set iter = test.%GetIterator()
+   while iter.%GetNext(.key, .value) { write "element:"_key_"=/"_value_"/  "}
+
+element:0=/a/  element:1=/b/  element:2=/c/
+----
 
 
 = 官方资料 +
