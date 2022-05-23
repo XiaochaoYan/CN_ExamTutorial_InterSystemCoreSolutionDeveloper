@@ -18,7 +18,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
    set iter = test.%GetIterator()
    while iter.%GetNext(.key, .value) { write "element:"_key_"=/"_value_"/  "}
 
-element:0=/a/  element:1=/b/  element:2=/c/
+element:0=/a/  element:1=/b/  element:2=/c/  ///此行为输出
 ----
 
 
