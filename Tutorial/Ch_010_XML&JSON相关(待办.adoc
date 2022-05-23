@@ -68,7 +68,7 @@ set reviewObject = {} +
 set dynamicObject = { "review":"My brother said \"You should try this place\" and I'm glad I did!", "rating":"good", "timestamp":($zdatetime($h,3))}
 ----
 上方为 官方复杂例子，其中有 2 个注意点 +
-1. 当使用 {} 声明 %DynamicObject 时，对JSON的特殊符号如 \ 需要包裹再 “”双引号 内转换成 %String +
+1. 当使用 {} 声明 %DynamicObject 时，对JSON的特殊符号如 “”双引号 需要在前面加上 \反斜杠  内转换成 %String +
 2. ObjectSCript命令 依然可以被使用，只是使用前需要将其包裹在 ()圆括号 内 +
 
 = 官方资料 +
