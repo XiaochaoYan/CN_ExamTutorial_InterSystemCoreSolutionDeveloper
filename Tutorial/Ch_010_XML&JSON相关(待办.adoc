@@ -10,6 +10,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = XML & JSON 相关在 ObjectScript 中的应用 + 
 
+= JSON相关 +
+
 JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 在 ObjectScript 中有以下 3个 类Class 与 JSON直接有关的 +
 1. %DynamicObject +
@@ -92,6 +94,9 @@ My brother said "You should try this place" and I'm glad I did! +
 ($zdatetime($h,3)) +
 输出为 +
 2022-05-23 01:40:27 类似格式的时间 +
+
+= XML相关 +
+XML 指可扩展标记语言(eXtensible Markup Language)，用来辅助存储和输送数据。 +
 
 
 = 官方资料 +
