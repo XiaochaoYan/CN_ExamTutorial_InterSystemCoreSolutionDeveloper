@@ -86,3 +86,5 @@ My brother said "You should try this place" and I'm glad I did! +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
 3. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON导入导出 Course版教程(老版 部分可用] +
+
+老版教程中的 ZenMethod 作为 2018版的关键字在新的2021版文档中已经找不到了
