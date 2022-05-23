@@ -176,6 +176,7 @@ Set TaxableSubtotal = ##class(Accounting.Utils).GetTaxableSubTotal($this)
 
 == 处理过长的 JSON 文字列String +
 使用 DO 命令，不去检查/或输出 长文字列 ，直接将其写入 I?O Stream 中 +
+link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#:~:text=The%20general%20solution%20to%20this%20problem%20is%20to%20pass%20the%20%25ToJSON()%20output%20by%20reference%20in%20a%20DO%20command%2C%20without%20actually%20examining%20the%20return%20value.%20Output%20is%20written%20directly%20to%20the%20current%20device%2C%20and%20there%20is%20no%20limit%20on%20the%20length%20of%20the%20output.%20In%20the%20following%20examples%2C%20the%20device%20is%20a%20stream.++[EN_过长文字列处理方法]
 ----
    set longObject = {"a":(longStr),"b":(longStr)}
    set file=##class(%File).%New("c:\temp\longObjectFile.txt")
