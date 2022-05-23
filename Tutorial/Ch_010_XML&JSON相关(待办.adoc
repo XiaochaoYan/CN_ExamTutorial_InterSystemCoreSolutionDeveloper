@@ -46,7 +46,9 @@ set tagsArray = ##class(%DynamicObject).%New()
 do tagsArray.%Push("Family Friendly")
 do tagsArray.%Push("Romantic")
 
+set reviewObject.tags = tagsArray
 
+write reviewObject.%ToJSON()
 ----
 
 
