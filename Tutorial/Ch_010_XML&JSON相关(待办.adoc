@@ -106,6 +106,9 @@ My brother said "You should try this place" and I'm glad I did! +
 
 = XML相关 +
 XML 指可扩展标记语言(eXtensible Markup Language)，用来辅助存储和输送数据。 +
+
+image::IRIS_023.png[]
+
 常见处理 XML 步骤 +
 1. 从 URL/文件/流Stream 等地方读取 XML ，并使用 ParseFile +
 2. 使用 Read() / MoveToContent() 等命令 读取数据 +
