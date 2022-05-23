@@ -63,7 +63,7 @@ set reviewObject = {} +
 *注意* ObjectScript 中的 数组Array 表单List 等的位置坐标时从 1 开始计数的,而不是 0 +
 但是 %DynamicArray 类的数组坐标是从 0 开始计算的
 
-== 汇总
+== JSON汇总 +
 ----
 set dynamicObject = { "review":"My brother said \"You should try this place\" and I'm glad I did!", "rating":"good", "timestamp":($zdatetime($h,3))}
 ----
