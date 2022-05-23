@@ -62,7 +62,7 @@ image::IRIS_013.png[]
 33. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
 34. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON导入导出 Course版教程(老版 部分可用] +
 35. https://github.com/intersystems-community[EN_Git InterSystem总页面] +
-36. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 重复其Iterator] +
+36. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 重复器 Iterator] +
 
 
 === 以上
