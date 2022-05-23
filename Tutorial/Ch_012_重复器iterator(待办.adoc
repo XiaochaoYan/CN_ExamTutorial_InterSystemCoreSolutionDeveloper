@@ -33,11 +33,13 @@ Element index: 0, value: abc //输出
 Element index: 1, value: 999 //输出
 Element index: 5, value: final //输出
 ----
-而
+而 FOR 循环是不会忽略的 空值null 的 +
+同样 不会忽略 空值null 的还有 %Size() 方法，下方Array.Size()依然为 6 +
+我们可以使用 *%isDefined()* 方法检测 空值null +
 ----
 write "Array size = "_array.%Size()_":",!,array.%ToJSON()
 
-Array size = 7:   //输出
+Array size = 6:   //输出
 ["abc",999,null,null,null,"final"] //输出
 ----
 
