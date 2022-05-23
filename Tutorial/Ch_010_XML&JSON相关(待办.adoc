@@ -24,6 +24,7 @@ JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#GJSON_create_chain[EN_官方文档 方法链] +
 ----
 write [].%FromJSON(jstring).%Set(1,"one").%Push("two").%Push("three").%Set(1,"final value").%ToJSON()
+[123,"final value","two","three"] //输出
 ----
 
 == %DynamicObject 常用方法 +
