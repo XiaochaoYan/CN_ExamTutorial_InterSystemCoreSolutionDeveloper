@@ -21,7 +21,7 @@ JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式 +
 
 image::IRIS_022.png[]
 
-== 从JSON 到 ObjectScript +
+== 从 JSON 到 ObjectScript +
 
 1. 使用 %FromJson 将 JSON 数据读取+ 
 ----
@@ -35,12 +35,11 @@ set dynamicObject.source = "website"
 do dynamicObject.%Set("timestamp",$zdatetime($h,3))
 ----
 
-3.
-
+== 从 ObjectScript 到 JSON +
 
 
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
-3. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON Course教程] +
+3. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON导入导出 Course版教程(老版 部分可用] +
