@@ -107,8 +107,8 @@ My brother said "You should try this place" and I'm glad I did! +
 = XML相关 +
 XML 指可扩展标记语言(eXtensible Markup Language)，用来辅助存储和输送数据。 +
 常见处理 XML 步骤 +
-1. 从 URL/文件/流Stream 等地方读取 XML ，并使用 ParseFile
-2. 使用 
+1. 从 URL/文件/流Stream 等地方读取 XML ，并使用 ParseFile +
+2. 使用 Read() / MoveToContent() 等命令 读取数据 +
 seq
 
 ----
@@ -147,6 +147,8 @@ ClassMethod WriteNodes(myfile As %String)
 4. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_adaptor[EN_%JSON_Adaptor] +
 5. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GXML_background[EN_XML 基础背景] +
 6. link:++https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GXML_textreader#:~:text=null-,seq,the%20same%20sequence%20number%20as%20the%20element%20to%20which%20it%20belongs.,-Argument%20Lists%20for++[EN_XML_值_特殊seq] +
+7. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GXML[EN_XML文档版 一览] +
+
 
 
 老版教程中的 ZenMethod 作为 2018版的关键字在新的2021版文档中已经找不到了 +
