@@ -36,7 +36,18 @@ do dynamicObject.%Set("timestamp",$zdatetime($h,3))
 ----
 
 == 从 ObjectScript 到 JSON +
+----
+set reviewObject = ##class(%DynamicObject).%New()
+set reviewObject.Rating = 5
+set reviewObject.Review = "Service was Great!"
+set reviewObject.Reviewer = "John Smith"
 
+set tagsArray = ##class(%DynamicObject).%New()
+do tagsArray.%Push("Family Friendly")
+do tagsArray.%Push("Romantic")
+
+
+----
 
 
 = 官方资料 +
