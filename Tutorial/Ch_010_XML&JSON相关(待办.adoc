@@ -55,6 +55,11 @@ set tagsArray = ##class(%DynamicObject).%New() +
 这行可以更换为 +
 set tagsArray = [] +
 
+上面中的 +
+set reviewObject = ##class(%DynamicObject).%New()
+这行可以更换为 +
+set reviewObject = {} +
+
 *注意* ObjectScript 中的 数组Array 表单List 等的位置坐标时从 1 开始计数的,而不是 0 +
 但是 %DynamicArray 类的数组坐标是从 0 开始计算的
 
