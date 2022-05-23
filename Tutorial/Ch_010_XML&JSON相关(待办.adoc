@@ -42,7 +42,7 @@ set reviewObject.Rating = 5
 set reviewObject.Review = "Service was Great!"
 set reviewObject.Reviewer = "John Smith"
 
-set tagsArray = ##class(%DynamicObject).%New()
+set tagsArray = ##class(%DynamicArray).%New()
 do tagsArray.%Push("Family Friendly")
 do tagsArray.%Push("Romantic")
 
@@ -50,6 +50,10 @@ set reviewObject.tags = tagsArray
 
 write reviewObject.%ToJSON()  //最后一步将打印出 JSON，实际操作中可以存为其他变量再导出
 ----
+上面中的 +
+set tagsArray = ##class(%DynamicObject).%New() +
+这行可以更换为 +
+set tagsArray = [] +
 
 
 = 官方资料 +
