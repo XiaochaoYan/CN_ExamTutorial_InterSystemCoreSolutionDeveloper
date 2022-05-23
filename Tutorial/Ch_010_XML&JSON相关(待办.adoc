@@ -87,7 +87,7 @@ My brother said \"You should try this place\" and I'm glad I did! +
 输出为 +
 My brother said "You should try this place" and I'm glad I did! +
 
-2. ObjectSCript命令 依然可以被使用，只是使用前需要将其包裹在 ()圆括号 内 +
+2. ObjectScript命令 依然可以被使用，只是使用前需要将其包裹在 ()圆括号 内 +
 如 +
 ($zdatetime($h,3)) +
 输出为 +
