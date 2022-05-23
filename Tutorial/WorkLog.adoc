@@ -19,3 +19,5 @@ May 18 09:00~18:00 Server side applicaon / VScode操作　の学習
 May 19 09:00~18:00 JSON/XML / Complex object に関する学習
 
 May 20 09:00~18:00 Complex object の再度確認　/ JSON　XML/ JDBC / OBDC　の学習
+
+May 23 09:00~18:00 JSON / XML 学習の完成　ObjectSCript Global に関する学習
