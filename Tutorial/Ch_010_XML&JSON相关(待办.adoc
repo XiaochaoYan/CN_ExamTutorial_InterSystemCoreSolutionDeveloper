@@ -55,6 +55,8 @@ set tagsArray = ##class(%DynamicObject).%New() +
 这行可以更换为 +
 set tagsArray = [] +
 
+*注意* ObjectScript 中的 数组Array 表单List 等的位置坐标时从 1 开始计数的,而不是 0 +
+但是 %DynamicArray 类的数组坐标是从 0 开始计算的
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
