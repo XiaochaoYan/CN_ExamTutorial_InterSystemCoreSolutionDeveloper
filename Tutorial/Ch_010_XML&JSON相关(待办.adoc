@@ -70,15 +70,15 @@ set dynamicObject = { "review":"My brother said \"You should try this place\" an
 上方为 官方复杂例子，其中有 2 个注意点 +
 
 1. 当使用 {} 声明 %DynamicObject 时，对JSON的特殊符号如 “”双引号 需要在前面加上 \反斜杠  内转换成 %String +
-如 
+如 +
 My brother said \"You should try this place\" and I'm glad I did! +
-输出为 
+输出为 +
 My brother said "You should try this place" and I'm glad I did! +
 
 2. ObjectSCript命令 依然可以被使用，只是使用前需要将其包裹在 ()圆括号 内 +
-如 
+如 +
 ($zdatetime($h,3)) +
-输出为 
+输出为 +
 2022-05-23 01:40:27 类似格式的时间 +
 
 
