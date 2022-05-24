@@ -22,7 +22,8 @@ image::IRIS_025.gif[]
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
 
 = 实例间关系的类型 +
-1. 1 To N +
+
+=== 1. 1ToN 关系 +
 
 特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例 +
 one instance of class A is associated with zero or more instances of class B +
