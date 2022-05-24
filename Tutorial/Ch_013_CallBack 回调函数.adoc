@@ -11,6 +11,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 = Callback Method 回调函数 +
 在 IRIS 中，Callback Method回调函数 一般方法名由  %On / On 开始 +
 如在执行 %Delete() 前 %OnDelete() 这个回调函数就会被执行（ 前提 %OnDelete() 已经被定义了 + 
+*注意* 不可直接调用 Callback 回调函数 +
 
 执行顺序根据方法名称各有不同 +
 %OnDelete() — 在执行前 - BEFORE DELETE +
@@ -22,4 +23,3 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_callbacks#GOBJ_cb_onaftersave[EN_回调函数] +
-2. 
