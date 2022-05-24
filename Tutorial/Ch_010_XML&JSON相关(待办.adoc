@@ -106,7 +106,12 @@ My brother said "You should try this place" and I'm glad I did! +
 
 = XML相关 +
 XML 指可扩展标记语言(eXtensible Markup Language)，用来辅助存储和输送数据。 +
+所有元素呈树状，都由一个 根元素RootElement 派生出来，元素间分 子父辈Child/Parent 兄弟姐妹Sibling 关系 +
+
+image::IRIS_024.gif[]
+
 Object Script 采用下方 DOM(Document Object Model) 模型来处理 XML +
+即不直接把 XML 推至 I/O 而是通过 %XML.Adaptor 这个类配合 %XML.Write() / %XML.XXXReader() 等类 进行间接操作 +
 
 image::IRIS_023.png[]
 
