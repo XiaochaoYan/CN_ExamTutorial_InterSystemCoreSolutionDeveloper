@@ -110,10 +110,9 @@ Object Script 采用下方 DOM(Document Object Model) 模型来处理 XML +
 
 image::IRIS_023.png[]
 
-常见处理 导入XML 步骤 +
-1. 从 URL/文件/流Stream 等地方读取 XML ，并使用 ParseFile +
+== 常见处理 导入XML 步骤 +
+1. 从 URL/文件/流Stream 等地方读取 XML ，使用 %XML.TextReader.ParseFile +
 2. 使用 Read() / MoveToContent() 等命令 读取数据 +
-
 
 ----
 ClassMethod WriteNodes(myfile As %String)
@@ -143,39 +142,39 @@ ClassMethod WriteNodes(myfile As %String)
 }
 ----
 
-导出%XMK.Write() +
+== 导出%XMK.Write() +
 
 需要 XML enabled 的类 即 本身或父类继承了 %XML.Adaptor 的 类 +
-需要 定义 ROOTOBJECT() 为 1.单个的 XML-enabled 变量 2.封装了的数据集合 +
+需要 定义 ROOTOBJECT() / ROOTELEMENT() 为 1.单个的 XML-enabled 变量 2.封装了的数据集合 +
+
+步骤
+1. 新建 %XML.Writer ，并使用 OutputToDeivce() 方法 +
+2. 
+
+XML 输出示例 +
 ----
-Class xmlproj.DataTypeColls Extends (%RegisteredObject, %XML.Adaptor)
+ClassMethod Write(obj) As %Status
 {
+    set writer=##class(%XML.Writer).%New()
+    set writer.Indent=1
 
-Property Collection1 As list Of %String;
+    //these steps are not really needed because 
+    //this is the default destination
+    set status=writer.OutputToDevice()
+    if $$$ISERR(status) {
+        do $System.Status.DisplayError(status) 
+        quit $$$ERROR($$$GeneralError, "Output destination not valid")
+    }
 
-Property Collection2 As list Of %String (XMLPROJECTION="wrapped");
-
-Property Collection3 As list Of %String (XMLPROJECTION="element");
-
+    set status=writer.RootObject(obj)
+    if $$$ISERR(status) {
+        do $System.Status.DisplayError(status) 
+        quit $$$ERROR($$$GeneralError, "Error writing root object")
+    }
+        
+    quit status
 }
 ----
-下方为XML ?
-----
-<?xml version="1.0" encoding="UTF-8"?>
-<DataTypeColls>
-  <Collection1>
-    <Collection1Item>list item 1</Collection1Item>
-    <Collection1Item>list item 2</Collection1Item>
-  </Collection1>
-  <Collection2>
-    <Collection2Item>list item 1</Collection2Item>
-    <Collection2Item>list item 2</Collection2Item>
-  </Collection2>
-  <Collection3>list item 1</Collection3>
-  <Collection3>list item 2</Collection3>
-</DataTypeColls>
-----
-
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
