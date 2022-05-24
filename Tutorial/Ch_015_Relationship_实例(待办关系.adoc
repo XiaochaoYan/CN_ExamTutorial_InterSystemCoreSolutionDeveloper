@@ -36,9 +36,6 @@ When an instance of either class is created, it may or may not be associated wit
 当 类B 和 类A的123号实例 有关系时，这个关系是可以被删除或者修改的，类B实例 不一定要和 类A实例 有对应关系。反之亦然。（此处公司雇员的例子不是特别好 但是雇员没公司的情况也是被定义允许的 +
 If an instance of class B is associated with a given instance of class A, this association can be removed or changed. The instance of class B can be associated with a different instance of class A. The instance of class B does not have to have any association with an instance of class A (and vice versa). +
 
-
-
-
-2. 亲子继承 +
+=== 2. 亲子继承 关系+
 
 3. N To N + 
