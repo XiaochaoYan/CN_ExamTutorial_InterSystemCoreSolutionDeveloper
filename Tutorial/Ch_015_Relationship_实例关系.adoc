@@ -9,7 +9,8 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
 = Relationship 实例间关系 +
-在 InterSystem中 关系有如下特点/限制 +
+
+=== 在 InterSystem中 关系有如下特点/限制 +
 1. 单条关系必须是 二元的Binary 的，即关系必须要是 1对1 的，即 A-B 或 A-A 这种。不存在 A-B&C 的关系（但是可以多条关系叠加，形成 1对N 关系 +
 2. 只有继承了 %Persistent 父类的 实例Object/类Class 才能被定义关系 +
 3. 关系是 双向的bidrectional 的，如 A-B 关系存在，则 B-A 关系也需要被定义 +
