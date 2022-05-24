@@ -38,4 +38,4 @@ If an instance of class B is associated with a given instance of class A, this a
 
 === 2. 亲子继承 关系+
 
-3. N To N + 
+=== 3. N To N + 
