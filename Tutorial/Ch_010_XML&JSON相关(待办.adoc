@@ -152,8 +152,8 @@ ClassMethod WriteNodes(myfile As %String)
 需要 XML enabled 的类 即 本身或父类继承了 %XML.Adaptor 的 类 +
 需要 定义 ROOTOBJECT() / ROOTELEMENT() 为 1.单个的 XML-enabled 变量 2.封装了的数据集合 +
 
-步骤
-1. 新建 %XML.Writer ，并使用 OutputToDeivce()等 OutputToXXX()的 方法 +
+输出步骤 +
+1. 新建 %XML.Writer ，并使用 OutputToDeivce()等 OutputToXXX()的 方法 定义输出的位置 +
 2. 使用 RootObject()方法，打印输出至指定位置。 *注意 RootElement() 与 RootObject() 容易混淆。前者只打印 根元素RootElement 一个元素 +
 
 XML 输出示例 +
