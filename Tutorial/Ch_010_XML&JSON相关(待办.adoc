@@ -107,6 +107,7 @@ My brother said "You should try this place" and I'm glad I did! +
 = XML相关 +
 XML 指可扩展标记语言(eXtensible Markup Language)，用来辅助存储和输送数据。 +
 Object Script 采用下方 DOM(Document Object Model) 模型来处理 XML +
+
 image::IRIS_023.png[]
 
 常见处理 导入XML 步骤 +
