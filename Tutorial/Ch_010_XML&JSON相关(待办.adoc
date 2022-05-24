@@ -116,7 +116,7 @@ Object Script 采用下方 DOM(Document Object Model) 模型来处理 XML +
 image::IRIS_023.png[]
 
 == 常见处理 导入XML 步骤 +
-1. 从 URL/文件/流Stream 等地方读取 XML ，使用 %XML.TextReader.ParseFile +
+1. 从 URL/文件/流Stream 等地方读取 XML时 ，使用 %XML.TextReader.ParseFile() 或其他类似的 %XML.XXXReader().Parsefile() +
 2. 使用 Read() / MoveToContent() 等命令 读取数据 +
 
 ----
