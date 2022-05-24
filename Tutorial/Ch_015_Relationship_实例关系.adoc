@@ -11,12 +11,32 @@ ifndef::imagesdir[:imagesdir: ../Img]
 = Relationship 实例间关系 +
 
 === 在 InterSystem中 关系有如下特点/限制 +
-1. 单条关系必须是 二元的Binary 的，即关系必须要是 1对1 的，即 A-B 或 A-A 这种。不存在 A-B&C 的关系（但是可以多条关系叠加，形成 1对N 关系 +
+1. 单条关系必须是 二元的Binary 的，即关系必须要是 1对1 的，即 A->B 或 A->A 这种。不存在 A->B&C 的关系（但是可以多条关系叠加 +
 2. 只有继承了 %Persistent 父类的 实例Object/类Class 才能被定义关系 +
-3. 关系是 双向的bidrectional 的，如 A-B 关系存在，则 B-A 关系也需要被定义 +
-4. 关系自动会保证 引用完整性referential integrity，即 第123号记录 能在 表B（子） 中被找到且存在 A(亲)-B（子） 表间关系，则对应的记录在 表A（亲） 中也存在，如果需要删除 表A（亲）中的 123号记录，则需要先删除 表B（子）中的123号记录 +
+3. 关系是 双向的bidrectional 的，如 A->B 关系存在，则 B->A 关系也需要被定义 +
+4. 关系自动会保证 引用完整性referential integrity，即 第123号记录 能在 表B（子） 中被找到且存在 A(亲)->B（子） 表间关系，则对应的记录在 表A（亲） 中也存在，如果需要删除 表A（亲）中的 123号记录，则需要先删除 表B（子）中的123号记录 +
 
 image::IRIS_025.gif[]
 
 5. 关系会自动管理 内存中in-memory / 硬盘上on-disk 的数据行为 +
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
+
+= 实例间关系的类型 +
+1. 1 To N +
+特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例 +
+one instance of class A is associated with zero or more instances of class B +
+如果有一家公司，每一个公司(类A) 必定对应 0或者更多的 雇员(类B) +
+For example, a company class may define a one-to-many relationship with an employee class. In this case, there may be zero or more employee objects associated with each company object. +
+
+当 任意 类A 或 类B 中有新的实例被创建时，这个新实例*不一定*会和关系中另一类有对应关系 +
+When an instance of either class is created, it may or may not be associated with an instance of the other class. +
+
+当 类B 和 类A的123号实例 有关系时，这个关系是可以被删除或者修改的，类B实例 不一定要和 类A实例 有对应关系。反之亦然。（此处公司雇员的例子不是特别好 +
+If an instance of class B is associated with a given instance of class A, this association can be removed or changed. The instance of class B can be associated with a different instance of class A. The instance of class B does not have to have any association with an instance of class A (and vice versa). +
+
+
+
+
+2. 亲子继承 +
+
+3. N To N + 
