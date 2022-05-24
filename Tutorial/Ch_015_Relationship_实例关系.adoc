@@ -13,6 +13,6 @@ ifndef::imagesdir[:imagesdir: ../Img]
 1. 单条关系必须是 二元的Binary 的，即关系必须要是 1对1 的，即 A-B 或 A-A 这种。不存在 A-B&C 的关系（但是可以多条关系叠加，形成 1对N 关系 +
 2. 只有继承了 %Persistent 父类的 实例Object/类Class 才能被定义关系 +
 3. 关系是 双向的bidrectional 的，如 A-B 关系存在，则 B-A 关系也需要被定义 +
-4. 关系自动会保证 引用完整性referential integrity，即 第123号记录 能在 表A 中被找到且存在 A-B 表间关系，则对应的记录在 表B 中也存在 +
+4. 关系自动会保证 引用完整性referential integrity，即 第123号记录 能在 表B（子） 中被找到且存在 A(亲)-B（子） 表间关系，则对应的记录在 表A（亲） 中也存在，如果需要删除 表A（亲）中的 123号记录，则需要先删除 表B（子）中的123号记录 +
 5. 关系会自动管理 内存中in-memory / 硬盘上on-disk 的数据行为 +
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
