@@ -1,1 +1,12 @@
-https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+= 官方资料
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro[EN_REST_API简介] +
