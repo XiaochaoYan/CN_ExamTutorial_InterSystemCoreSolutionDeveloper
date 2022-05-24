@@ -147,7 +147,7 @@ ClassMethod WriteNodes(myfile As %String)
 }
 ----
 
-== 导出%XMK.Write() +
+== 导出 %XMK.Writer() +
 
 需要 XML enabled 的类 即 本身或父类继承了 %XML.Adaptor 的 类 +
 需要 定义 ROOTOBJECT() / ROOTELEMENT() 为 1.单个的 XML-enabled 变量 2.封装了的数据集合 +
@@ -180,6 +180,30 @@ ClassMethod Write(obj) As %Status
     quit status
 }
 ----
+下方为输出 +
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<Person4>
+  <Name>Tesla,Alexandra L.</Name>
+  <DOB>1983-11-16</DOB>
+  <GroupID>Y9910</GroupID>
+  <Address>
+    <City>Albany</City>
+    <Zip>24450</Zip>
+  </Address>
+  <Doctors>
+    <Doc>
+      <Name>Schulte,Frances T.</Name>
+    </Doc>
+    <Doc>
+      <Name>Smith,Albert M.</Name>
+    </Doc>
+  </Doctors>
+</Person4>
+----
+
+
+
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_json[EN_JSON 相关概念汇总] +
