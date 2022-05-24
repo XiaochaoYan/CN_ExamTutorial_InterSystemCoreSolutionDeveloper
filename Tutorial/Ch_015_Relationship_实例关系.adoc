@@ -23,12 +23,13 @@ image::IRIS_025.gif[]
 
 = 实例间关系的类型 +
 1. 1 To N +
+
 特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例 +
 one instance of class A is associated with zero or more instances of class B +
 如果有一家公司，每一个公司(类A) 必定对应 0或者更多的 雇员(类B) +
 For example, a company class may define a one-to-many relationship with an employee class. In this case, there may be zero or more employee objects associated with each company object. +
 
-当 任意 类A 或 类B 中有新的实例被创建时，这个新实例*不一定*会和关系中另一类有对应关系 +
+当 任意 类A 或 类B 中有新的实例被创建时，这个新实例 *不一定* 会和关系中另一类有对应关系 +
 When an instance of either class is created, it may or may not be associated with an instance of the other class. +
 
 当 类B 和 类A的123号实例 有关系时，这个关系是可以被删除或者修改的，类B实例 不一定要和 类A实例 有对应关系。反之亦然。（此处公司雇员的例子不是特别好 +
