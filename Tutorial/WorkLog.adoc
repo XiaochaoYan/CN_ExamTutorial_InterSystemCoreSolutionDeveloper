@@ -23,3 +23,5 @@ May 20 09:00~18:00 Complex object の再度確認　/ JSON　XML/ JDBC / OBDC　
 May 23 09:00~18:00 JSON / XML 学習の完成　ObjectSCript Global に関する学習
 
 May 24 09:00~18:00 Call back method / Iterator 完成　Relationship　作業中
+
+May 24 09:00~18:00 Relationship　の続き
