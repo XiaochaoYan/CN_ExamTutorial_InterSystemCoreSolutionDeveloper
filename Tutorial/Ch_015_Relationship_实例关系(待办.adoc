@@ -21,6 +21,8 @@ image::IRIS_025.gif[]
 5. 关系会自动管理 内存中in-memory / 硬盘上on-disk 的数据行为 +
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
 
+*另外：关系Realationship 属于 类Class 的一种 属性Property，依靠的时 []方括号 中的 关键词Keyword 声明，所以可以和其他 关键词Keyword 一起混用。 +
+
 = 常用语法 +
 
 Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inverseProp ]; +
