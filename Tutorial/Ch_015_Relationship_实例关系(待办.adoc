@@ -35,7 +35,7 @@ Relationship Employees As MyApp.Employee [ Cardinality = many, Inverse = Employe
 
 === 1. 1ToN 关系 +
 
-特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例 +
+特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例, 但是 A B 两个表格相互独立 +
 one instance of class A is associated with zero or more instances of class B +
 如果有一家公司，每一个公司(类A) 必定对应 0或者更多的 雇员(类B) +
 For example, a company class may define a one-to-many relationship with an employee class. In this case, there may be zero or more employee objects associated with each company object. +
@@ -47,6 +47,19 @@ When an instance of either class is created, it may or may not be associated wit
 If an instance of class B is associated with a given instance of class A, this association can be removed or changed. The instance of class B can be associated with a different instance of class A. The instance of class B does not have to have any association with an instance of class A (and vice versa). +
 
 === 2. 亲子继承 关系 +
+
+特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例，但是 B表 依赖于 A表 。+
+
+B表中的实例如果在A表中没有对应，则对它的保存操作会失败。 +
+When an instance of the class B is saved, it must be associated with an instance of class A. If you attempt to save the instance, and that association is not defined, the save action fails. +
+
+同时 A B 两个表中的实例关系不能被修改，即 B表123号实例 在和 A表456号实例 绑定后，不能改成和 A表789号实例绑定 +
+The association cannot be changed. That is, you cannot associate the instance of class B with a different instance of class A. +
+
+如果 A表中一个实例被删除了，B表中所有与这个A表实例相关的记录都会被删除。（类似SQL中的 ON DELTE CASCADE +
+If the instance of class A is deleted, all associated instances of class B are deleted as well. +
+但是当你删除B表实例时，A表实例不会有任何影响。 +
+You can delete an instance of class B. Class A is not required to have associated instances of class B. +
 
 === 3. N To N + 
 
