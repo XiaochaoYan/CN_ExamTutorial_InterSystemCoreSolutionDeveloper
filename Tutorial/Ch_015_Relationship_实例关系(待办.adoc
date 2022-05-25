@@ -49,3 +49,6 @@ If an instance of class B is associated with a given instance of class A, this a
 === 2. 亲子继承 关系 +
 
 === 3. N To N + 
+
+= 官方文档 +
+1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
