@@ -67,8 +67,8 @@ You can delete an instance of class B. Class A is not required to have associate
 === 3. N To N + 
 特点: N对N 关系的实现需要靠一个 桥接Bridge 类来实现。即 A->B<-C 这样两段 1ToN 关系 串联。 +
 
+承担交接作用的 DoctorPatient 类 +
 ----
-/// Bridge class between MN.Doctor and MN.Patient
 Class MN.DoctorPatient Extends %Persistent
 {
 
@@ -81,7 +81,31 @@ Relationship Patient As MN.Patient [ Cardinality = one, Inverse = Bridge ];
 Index PatientIndex On Patient;
 }
 ----
+原有的 Doctor 类 +
+----
+Class MN.Doctor Extends %Persistent
+{
 
+Property Name;
 
+Property Specialty;
+
+Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Doctor ];
+
+}
+----
+原有的 Patient 类 +
+----
+Class MN.Patient Extends %Persistent
+{
+
+Property Name;
+
+Property Address;
+
+Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient ];
+
+}
+----
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
