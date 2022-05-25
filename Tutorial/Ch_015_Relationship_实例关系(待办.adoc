@@ -33,6 +33,8 @@ Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inver
 
 其中 Inverse 指连接关系中的当前的 类Class 对应的 【Relationship Name 关系名】，所以此处应为 Employees +
 
+*另外* 除了 Relationship 需要定义外， 目录Index 也是需要在两个类中事先定义的。 +
+
 === 实际应用例子，假设这个关系在 MyApp.Employee 中被声明了 +
 
 ----
@@ -145,5 +147,36 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
 
 }
 ----
+
+= 实际应用已有的关系 +
+=== 从 Parent / One 端 连接两个有关系的实例 +
+我们在 Parent / One 端 连接时，使用 do...Insert（） 命令 +
+完成后，使用 %SAVE() 命令时，被连接的两个实例会自动保存到 IRIS 数据库的硬盘中。 +
+----
+ set invoice=##class(MyApp.Invoice).%OpenId(100034)
+ //set some properties such as the customer name and invoice date
+
+ set item=##class(MyApp.LineItem).%New()
+ //...set some properties of this object such as the product name and sale price...
+
+ //connect the objects
+ do invoice.LineItems.Insert(item)
+----
+
+=== 从 Children / Many 端 连接两个有关系的实例 +
+我们在 Children / Many 端 连接时，使用 set 命令 +
+完成后，使用 %SAVE() 命令时，被连接的两个实例会自动保存到 IRIS 数据库的硬盘中。 +
+----
+  //obtain an OREF to the invoice class
+ set invoice=##class(MyApp.Invoice).%New()
+ //...specify invoice date and so on
+
+ set item=##class(MyApp.LineItem).%New()
+ //...set some properties of this object such as the product name and sale price...
+
+ //connect the objects
+ set item.Invoice=invoice
+----
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
+2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_index[EN_Index 关键字定义] +
