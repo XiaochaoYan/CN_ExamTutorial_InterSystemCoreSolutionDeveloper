@@ -67,7 +67,20 @@ You can delete an instance of class B. Class A is not required to have associate
 === 3. N To N + 
 特点: N对N 关系的实现需要靠一个 桥接Bridge 类来实现。即 A->B<-C 这样两段 1ToN 关系 串联。 +
 
+----
+/// Bridge class between MN.Doctor and MN.Patient
+Class MN.DoctorPatient Extends %Persistent
+{
 
+Relationship Doctor As MN.Doctor [ Cardinality = one, Inverse = Bridge ];
+
+Index DoctorIndex On Doctor;
+
+Relationship Patient As MN.Patient [ Cardinality = one, Inverse = Bridge ];
+
+Index PatientIndex On Patient;
+}
+----
 
 
 = 官方文档 +
