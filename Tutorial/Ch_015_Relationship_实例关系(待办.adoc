@@ -65,6 +65,10 @@ If the instance of class A is deleted, all associated instances of class B are d
 You can delete an instance of class B. Class A is not required to have associated instances of class B. +
 
 === 3. N To N + 
+特点: N对N 关系的实现需要靠一个 桥接Bridge 类来实现。即 A->B<-C 这样两段 1ToN 关系 串联。 +
+
+
+
 
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
