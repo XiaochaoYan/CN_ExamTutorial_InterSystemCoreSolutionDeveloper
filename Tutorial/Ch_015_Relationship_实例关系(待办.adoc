@@ -26,6 +26,7 @@ image::IRIS_025.gif[]
 Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inverseProp ]; +
 其中 Cardinality 指连接关系中这个 类Class 随对应的部分，如 1ToN 关系中就分 One / Many 两个部分，下方例子，对应的是 Many 部分。 +
 其中 Inverse 指连接关系中的另一个 类Classs，如当前 类Class 对应的时 Many，Inverse填的则对应 One的 类Class 的名字 +
+
 === 实际应用例子 +
 
 ----
