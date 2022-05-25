@@ -89,7 +89,7 @@ If an instance of class B is associated with a given instance of class A, this a
 
 === 2. 亲子继承 关系 +
 
-特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例，但是 B表 依赖于 A表 。 A表 B表不能是同一个表 +
+特点： A->B 一个 类A的实例 对应 0或更多条的 的 类B的实例，但是 B表 依赖于 A表 。*且 A表 B表不能是同一个表* +
 
 B表中的实例如果在A表中没有对应，则对它的保存操作会失败。 +
 When an instance of the class B is saved, it must be associated with an instance of class A. If you attempt to save the instance, and that association is not defined, the save action fails. +
