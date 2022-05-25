@@ -21,6 +21,14 @@ image::IRIS_025.gif[]
 5. 关系会自动管理 内存中in-memory / 硬盘上on-disk 的数据行为 +
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
 
+= 常用语法 +
+
+Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inverseProp ];
+
+实际应用例子 +
+----
+Relationship Employees As MyApp.Employee [ Cardinality = many, Inverse = Employer ];
+----
 = 实例间关系的类型 +
 
 === 1. 1ToN 关系 +
