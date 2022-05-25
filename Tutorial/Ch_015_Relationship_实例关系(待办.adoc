@@ -29,18 +29,48 @@ Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inver
 
 其中 As MyApp.Employee 部分，指的是需要连接到的 类Class，此处是从
 
-其中 Cardinality 指连接关系中这个 类Class 所在关系中对应的角色，如 1ToN 关系中就分 One / Many 两个角色，下方例子，当前对应的是 Many 部分。只有 one/many/parent/children 这几种已经被定义好的可选 +
+其中 Cardinality 指连接关系中当前的 类Class 所在关系中对应的角色，如 1ToN 关系中就分 One / Many 两个角色，下方例子，当前对应的是 One 部分。只有 one/many/parent/children 这几种已经被定义好的可选 +
 
-其中 Inverse 指连接关系中的对方的类对应的 【Relationship Name 关系名】，所以此处应为 Employee +
+其中 Inverse 指连接关系中的当前的 类Class 对应的 【Relationship Name 关系名】，所以此处应为 Employees +
 
 === 实际应用例子，假设这个关系在 MyApp.Employee 中被声明了 +
 
 ----
-Relationship Employees As MyApp.Employee [ Cardinality = many, Inverse = Employer ];
+Relationship Employer As MyApp.Company [ Cardinality = one, Inverse = Employees ];
 ----
 
-==== 对应当前类的参数有 1.Relationship Name 2.Cardinality +
-==== 对应对方类的参数有 1.classname 2. inverse +
+==== 对应当前类的参数有 1.classname 2. inverse +
+==== 对应对方的参数有 1.Relationship Name 2.Cardinality +
+
+Employer 类的声明 +
+----
+Class MyApp.Company Extends %Persistent
+{
+
+Property Name As %String;
+
+Property Location As %String;
+
+Relationship Employees As MyApp.Employee [ Cardinality = many, Inverse = Employer ];
+
+}
+----
+
+Employee 类的声明 +
+----
+Class MyApp.Employee Extends (%Persistent, %Populate)
+{
+
+Property FirstName As %String;
+
+Property LastName As %String;
+
+Relationship Employer As MyApp.Company [ Cardinality = one, Inverse = Employees ];
+
+Index EmployerIndex On Employer;
+
+}
+----
 
 = 实例间关系的类型 +
 
