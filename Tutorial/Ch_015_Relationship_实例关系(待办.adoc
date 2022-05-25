@@ -33,9 +33,6 @@ Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inver
 
 其中 Inverse 指连接关系中的当前的 类Class 对应的 【Relationship Name 关系名】，所以此处应为 Employees +
 
-*另外* 除了 Relationship 需要定义外， 目录Index 也是需要在两个类中事先定义的。 +
-https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_index[EN_Index 关键字定义] +
-
 === 实际应用例子，假设这个关系在 MyApp.Employee 中被声明了 +
 
 ----
