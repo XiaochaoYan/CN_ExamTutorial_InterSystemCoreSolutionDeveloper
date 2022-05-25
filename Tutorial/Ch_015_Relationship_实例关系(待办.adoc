@@ -164,7 +164,7 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
 ----
 
 === 从 Children / Many 端 连接两个有关系的实例 +
-我们在 Children / Many 端 连接时，使用 set 命令 +
+我们在 Children / Many 端 连接时，使用 SET 命令 +
 完成后，使用 %SAVE() 命令时，被连接的两个实例会自动保存到 IRIS 数据库的硬盘中。 +
 ----
   //obtain an OREF to the invoice class
