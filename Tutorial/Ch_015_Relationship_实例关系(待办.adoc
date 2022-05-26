@@ -170,7 +170,8 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
 }
 ----
 
-= 实际应用已有的关系 +
+= 实际应用:连接实例 +
+
 === 从 Parent / One 端 连接两个有关系的实例, 且其中一个为 %Library.RelationshipObject时 +
 我们在 Parent / One 端 连接时，使用 do...Insert（） 命令 +
 完成后，使用 %SAVE() 命令时，被连接的两个实例会自动保存到 IRIS 数据库的硬盘中。 +
@@ -199,6 +200,27 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
  //connect the objects
  set item.Invoice=invoice
 ----
+
+== 实际应用:移除已有的连接 +
+----
+MYNAMESPACE>set e=##class(Sample.Employee).%OpenId(101)
+ 
+MYNAMESPACE>w e.Company.%Id()
+5
+MYNAMESPACE>set c=##class(Sample.Company).%OpenId(5)
+ 
+MYNAMESPACE>w c.Employees.Count()
+4
+
+MYNAMESPACE>set e.Company=""
+//上方语句设定 对应Many 的 Emploee 实例的 关系Relationship 为 空值null，所以两个实例间关联结束了
+ 
+MYNAMESPACE>w c.Employees.Count()
+3
+----
+
+
+
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_index[EN_Index 关键字定义] +
