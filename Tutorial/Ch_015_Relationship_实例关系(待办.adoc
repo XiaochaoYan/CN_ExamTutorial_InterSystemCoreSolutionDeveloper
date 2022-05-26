@@ -201,7 +201,13 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
  set item.Invoice=invoice
 ----
 
-== 实际应用:移除已有的连接 +
+== 实际应用:移除已有的 实例Object 间连接 +
+常见步骤： +
+1.Open the instance of the child object (or the object on the many side). +
+打开需要断开连接的 实例Object +
+2.Set the applicable property of this object equal to null +
+将其 Relationship关系 的值设为 空值null +
+
 ----
 MYNAMESPACE>set e=##class(Sample.Employee).%OpenId(101)
  
