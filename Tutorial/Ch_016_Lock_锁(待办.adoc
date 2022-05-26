@@ -1,5 +1,39 @@
 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+= Lock_锁 +
+
+使用情况 +
+
+If your application needs to read one or more global nodes, and you do not want other processes to modify the values during the read operation, create shared locks for those nodes. +
+
+If your application needs to modify one or more global nodes, and you do not want other processes to read these nodes during the modification, create exclusive locks for those nodes. +
+
+锁自动跨  不同的NameSpce +
+
+%Persistent 类的常见操作 %GetLock(), %ReleaseLock(), %LockId(), %UnlockId(), %LockExtent(), and %UnlockExtent() +
+*需要实现 %OpenId() 打开特定实例 +
+
+== 避免死锁 Deadlock +
+Always include the timeout argument. +
+
+Follow a strict protocol for the order in which you issue incremental LOCK commands. Deadlocks cannot occur as long as all processes follow the same order for lock names. A simple protocol is to add locks in collating sequence order. +
+
+Use simple locking rather than incremental locking; that is, do not use the + operator. As noted earlier, with simple locking, the LOCK command first releases all previous locks held by the process. (In practice, however, simple locking is not often used.) +
+
+If a deadlock occurs, you can resolve it by using the Management Portal or the ^LOCKTAB routine. See “Monitoring Locks” in the Monitoring Guide. +
+
+
+= 官方资料 +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_lock[EN_SQL锁] +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_clock[EN_ObjectScript锁] +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_lock[EN_锁] +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_locktable[EN_锁的管理] +
+https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock[EN_ObjectScript中的锁] +
