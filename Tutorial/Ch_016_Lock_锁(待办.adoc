@@ -35,6 +35,7 @@ If a deadlock occurs, you can resolve it by using the Management Portal or the ^
 
 image::IRIS_025.png[]
 
+=== 自动升级成了 Escalating Lock +
 image::IRIS_026.png[]
 
 = 官方资料 +
