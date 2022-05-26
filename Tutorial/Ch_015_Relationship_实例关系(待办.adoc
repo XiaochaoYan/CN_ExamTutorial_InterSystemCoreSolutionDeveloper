@@ -47,8 +47,8 @@ Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inver
 Relationship Employer As MyApp.Company [ Cardinality = one, Inverse = Employees ];
 ----
 
-==== 对应当前类的参数有 1.classname 2. inverse +
-==== 对应对方的参数有 1.Relationship Name 2.Cardinality +
+==== 对应当前类的参数有 1.Relationship Name 2. inverse 3.Cardinality+
+==== 对应对方的参数有  1.classname  +
 
 === Company 类的声明 +
 ----
