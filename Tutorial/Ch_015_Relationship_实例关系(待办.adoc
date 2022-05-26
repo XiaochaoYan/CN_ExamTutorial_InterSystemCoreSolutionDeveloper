@@ -22,6 +22,7 @@ image::IRIS_025.gif[]
 6. 关系一般比 数据集合collection 拥有更好的 并发性能 和 扩展性
 
 *另外：关系Realationship 属于 类Class 的一种 属性Property，依靠的时 []方括号 中的 关键词Keyword 声明，所以可以和其他 关键词Keyword 一起混用。 +
+*另外：同理 关系Realationship 本身就类似一个 变量Variable 负责存储关系对方相关的数据 + 
 
 = 常用语法 +
 
@@ -83,6 +84,7 @@ Index EmployerIndex On Employer;
  Set emp.FirstName = "Melanie"
 
  // Now associate Employee with Company
+ // 注意下方的用法 类别为 Relationship 的还可以作为 变量Variable 使用
  Set emp.Employer = company
 
  // Save the Company (this will save emp as well)
