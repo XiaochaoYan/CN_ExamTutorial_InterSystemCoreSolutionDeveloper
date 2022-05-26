@@ -1,0 +1,5 @@
+
+https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_lock[EN_SQL锁] +
+https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_clock[EN_ObjectScript锁] +
+https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_lock[EN_锁] +
+https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_locktable[EN_锁的管理] +
