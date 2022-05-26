@@ -30,6 +30,9 @@ Use simple locking rather than incremental locking; that is, do not use the + op
 
 If a deadlock occurs, you can resolve it by using the Management Portal or the ^LOCKTAB routine. See “Monitoring Locks” in the Monitoring Guide. +
 
+== Escalating Locks +
+当一个 Process 创建了多余特定数量的 锁Lock 后（默认1000），所以 继承关系中的 Child 级别的锁 会被合并到上一层的 Parent 级别的锁 +
+
 
 = 官方资料 +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_lock[EN_SQL锁] +
