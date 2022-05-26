@@ -44,3 +44,4 @@ https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RCOS_clock[
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_lock[EN_锁] +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_locktable[EN_锁的管理] +
 https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock[EN_ObjectScript中的锁] +
+link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ALOCK#:~:text=There%20is%20a,removed%20unexpectedly%20early.++[EN_特殊情况 锁被错误移除 Bug] +
