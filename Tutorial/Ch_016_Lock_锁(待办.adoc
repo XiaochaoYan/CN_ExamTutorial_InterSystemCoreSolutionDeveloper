@@ -33,6 +33,9 @@ If a deadlock occurs, you can resolve it by using the Management Portal or the ^
 == Escalating Locks +
 当一个 Process 创建了多余特定数量的 锁Lock 后（默认1000），所以 继承关系中的 Child 级别的锁 会被合并到上一层的 Parent 级别的锁 +
 
+image::IRIS_025.png[]
+
+image::IRIS_026.png[]
 
 = 官方资料 +
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_lock[EN_SQL锁] +
