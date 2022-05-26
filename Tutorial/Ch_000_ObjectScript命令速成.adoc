@@ -191,6 +191,10 @@ link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?K
 Property newObject.a is 3641144 characters long.
 ----
 
+=== Z前缀 与 X前缀 +
+Z前缀的 方法Method 如 ZWRITE() / ZZWRITE() 是用来排BUG的方法，可以将变量的详细信息一起打出来 +
+XData / XDATA Block 则是指在 XML / JSON / YAML 等用于存储或传输格式的数据块 +
+
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
