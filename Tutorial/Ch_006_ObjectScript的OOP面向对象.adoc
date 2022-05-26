@@ -52,7 +52,9 @@ Property PropName as Classname(PARAM1=value,PARAM2=value) [ Keywords ] ;
 
 == 类方法 Class Method +
 类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method。 如果省去 as Classname 部分，则本方法不会返回值 +
+
 === 这里的 Classname 与 Class 关系并不大，可以理解为 C++ / JAVA 中的 返回值的数据类型(return type) +
+
 ----
 ClassMethod MethodName(arguments) as Classname [ Keywords]
 {
@@ -64,7 +66,7 @@ ClassMethod MethodName(arguments) as Classname [ Keywords]
 
 属性 Property 为所有此类的实例不共有的变量 +
 Method Parameter为方法的参数，与最下方的 在方法外的参数 不同。 +
-Parameter 在 Method 外面时，实际作用为类似 静态常数Static Constant 变量，为所有此类的实例所共有。
+Parameter 在 Method 外面时，实际作用为类似 静态常数Static Constant 变量，为所有此类的实例所共有。 +
 
 ----
 /// My first class
