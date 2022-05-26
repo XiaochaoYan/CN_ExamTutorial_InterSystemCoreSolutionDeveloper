@@ -24,6 +24,13 @@ image::IRIS_025.gif[]
 *另外：关系Realationship 属于 类Class 的一种 属性Property，依靠的时 []方括号 中的 关键词Keyword 声明，所以可以和其他 关键词Keyword 一起混用。 +
 *另外：同理 关系Realationship 本身就类似一个 变量Variable 负责存储关系对方相关的数据 + 
 
+在 SQL数据库中，所有的关系会在 Many/Children 端以一个单独的 域Field 的形式体现出来。如下方的 Employee 在数据库中的 表Table 就会多一个 Employer 的 域Field +
+----
+SELECT Employer->Name, LastName,FirstName FROM MyApp.Employee
+SELECT c.Name, e.LastName, e.FirstName FROM MyApp.Company c, MyApp.Employee e WHERE e.Employer = c.ID 
+----
+上方两条语句都是可行的。
+
 = 常用语法 +
 
 Relationship Name As classname [ Cardinality = cardinality_type, Inverse = inverseProp ]; +
