@@ -215,6 +215,8 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
 2.Set the applicable property of this object equal to null +
 将其 Relationship关系 的值设为 空值null +
 
+如果移除有 依赖关系Depedence 的实例，则移除后不能存在的实例也会被移除 （自动保证 应用完整性 Referential Integrity +
+
 ----
 MYNAMESPACE>set e=##class(Sample.Employee).%OpenId(101)
  
@@ -232,7 +234,24 @@ MYNAMESPACE>w c.Employees.Count()
 3
 ----
 
+== 异域键 ForeignKey 相关应用
+异域键ForeignKey 和 Relationship 的功能很相似，最大区别在于 ForeignKey会默认检查 应用完整性 Referential Integrity。 +
+如果不能保证完整性，则不会执行操作，并返回 SQL错误代码 -121, -122, -123, -124 之一 +
+==== 异域键 ForeignKey 例子： +
+----
+Class MN.DoctorPatient Extends %Persistent
+{
 
+Property Doctor As MN.Doctor;
+
+ForeignKey DoctorFK(Doctor) References MN.Doctor();
+
+Property Patient As MN.Patient;
+
+ForeignKey PatientFK(Patient) References MN.Patient();
+
+}
+----
 
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
