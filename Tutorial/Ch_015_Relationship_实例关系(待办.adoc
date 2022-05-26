@@ -257,3 +257,4 @@ ForeignKey PatientFK(Patient) References MN.Patient();
 = 官方文档 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_index[EN_Index 关键字定义] +
+3. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_foreignkeys[EN_异域键 ForeignKey] +
