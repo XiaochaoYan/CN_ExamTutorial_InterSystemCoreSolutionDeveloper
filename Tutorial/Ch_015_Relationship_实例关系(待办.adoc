@@ -147,7 +147,7 @@ Relationship Bridge As MN.DoctorPatient [ Cardinality = many, Inverse = Patient 
 ----
 
 = 实际应用已有的关系 +
-=== 从 Parent / One 端 连接两个有关系的实例 +
+=== 从 Parent / One 端 连接两个有关系的实例, 且其中一个为 %Library.RelationshipObject时 +
 我们在 Parent / One 端 连接时，使用 do...Insert（） 命令 +
 完成后，使用 %SAVE() 命令时，被连接的两个实例会自动保存到 IRIS 数据库的硬盘中。 +
 ----
