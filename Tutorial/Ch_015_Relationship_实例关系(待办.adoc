@@ -42,7 +42,7 @@ Relationship Employer As MyApp.Company [ Cardinality = one, Inverse = Employees 
 ==== 对应当前类的参数有 1.classname 2. inverse +
 ==== 对应对方的参数有 1.Relationship Name 2.Cardinality +
 
-Employer 类的声明 +
+=== Company 类的声明 +
 ----
 Class MyApp.Company Extends %Persistent
 {
@@ -56,7 +56,7 @@ Relationship Employees As MyApp.Employee [ Cardinality = many, Inverse = Employe
 }
 ----
 
-Employee 类的声明 +
+=== Employee 类的声明 +
 ----
 Class MyApp.Employee Extends (%Persistent, %Populate)
 {
@@ -71,6 +71,28 @@ Index EmployerIndex On Employer;
 
 }
 ----
+=== 1ToN 关系的应用实例，使用上方的 Employee 和 Company 两个 类Class +
+----
+ // create a new instance of Company
+ Set company = ##class(MyApp.Company).%New()
+ Set company.Name = "Chiaroscuro LLC"
+
+ // create a new instance of Employee
+ Set emp = ##class(MyApp.Employee).%New()
+ Set emp.LastName = "Weiss"
+ Set emp.FirstName = "Melanie"
+
+ // Now associate Employee with Company
+ Set emp.Employer = company
+
+ // Save the Company (this will save emp as well)
+ Do company.%Save()
+
+ // Close the newly created objects 
+ Set company = ""
+ Set emp = ""
+----
+
 
 = 实例间关系的类型 +
 
