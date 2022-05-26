@@ -39,7 +39,7 @@ Class Demo.MyClass Extends (Superclass1, Superclass2, Superclass3)
 ----
 
 == 参数 Parameter +
-类的参数采用下方声明语法， 其中 Keyword 和 Value 部分为可选 +
+类的参数采用下方声明语法， 其中 Keyword 和 Value 部分为可选， 参数Parameter 类似 常数Constant *不可更改* 且被 该类Class 所有的 实例Object 共享 +
 ----
 Parameter PARAMNAME as Type [ Keywords ] = value;
 ----
