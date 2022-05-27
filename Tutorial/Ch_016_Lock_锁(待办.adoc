@@ -22,7 +22,7 @@ If your application needs to modify one or more global nodes, and you do not wan
 *需要实现 %OpenId() 打开特定实例 +
 
 LOCK +lockname#locktype 创建 Lock +
-LOCK -lockname#locktype 消除 Lock +
+LOCK -lockname#locktype 消除 Lock 
 
 ----
   LOCK +^a(1)      // apply lock ^a(1)
@@ -40,6 +40,7 @@ LOCK -lockname#locktype 消除 Lock +
                    // while still in the transaction
 ----
 
+LOCK 如果没有任何参数 则移除当前Process 所有的锁 +
 
 == 避免死锁 Deadlock +
 Always include the timeout argument. +
@@ -80,3 +81,5 @@ https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_lockta
 https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock[EN_ObjectScript中的锁] +
 link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ALOCK#:~:text=There%20is%20a,removed%20unexpectedly%20early.++[EN_特殊情况 锁被错误移除 Bug] +
 https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock#RCOS_clock_incremental[EN_Incremental Lock] +
+https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ALOCK#ALOCK_using_remove_all[EN_Remove All lock] +
+
