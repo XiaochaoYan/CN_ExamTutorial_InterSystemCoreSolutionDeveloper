@@ -48,6 +48,8 @@ While one process owns an exclusive lock (with a given lock name), no other proc
 
 While one process owns a shared lock (with a given lock name), other processes can acquire shared locks with that lock name, but no other process can acquire an exclusive lock with that lock name. +
 
+image::IRIS_027.png[]
+
 == 避免死锁 Deadlock +
 Always include the timeout argument. +
 
