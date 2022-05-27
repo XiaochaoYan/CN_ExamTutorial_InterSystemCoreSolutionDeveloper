@@ -41,12 +41,15 @@ Specifying “I” when unlocking a non-incremented (lock count 1) lock immediat
 
 Specifying “I” when unlocking an incremented lock (lock count > 1) immediately releases the incremental lock, decrementing the lock count by 1. This is the same behavior as a default unlock of an incremented lock. +
 
+
+
 == Escalating Locks +
 当一个 Process 创建了多余特定数量的 锁Lock 后（默认1000），所以 继承关系中的 Child 级别的锁 会被合并到上一层的 Parent 级别的锁 +
 
 image::IRIS_025.png[]
 
-=== 自动升级成了 Escalating Lock +
+== 自动升级成了 Escalating Lock +
+
 image::IRIS_026.png[]
 
 Note that only “E” locks are counted towards lock escalation. The following example applies both default (non-“E”) locks and “E” locks on the same variable.  +
@@ -59,3 +62,4 @@ https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ITECHREF_lo
 https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GCOS_locktable[EN_锁的管理] +
 https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock[EN_ObjectScript中的锁] +
 link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ALOCK#:~:text=There%20is%20a,removed%20unexpectedly%20early.++[EN_特殊情况 锁被错误移除 Bug] +
+https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_clock#RCOS_clock_incremental[EN_Incremental Lock] +
