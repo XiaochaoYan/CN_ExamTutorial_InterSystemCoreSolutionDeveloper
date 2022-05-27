@@ -9,11 +9,15 @@ endif::[]
 ifndef::imagesdir[:imagesdir: ../Img]
 
 = REST_API +
+If you need access to the data in an InterSystems IRIS database from an external system or want to provide a user interface for that data, you can do it by defining a REST interface. REST — or REpresentational State Transfer — is a way to retrieve, add, update, or delete data from another system using an exposed URL. REST is based on HTTP and uses the HTTP verbs POST, GET, PUT, and DELETE to map to the common Create, Read, Update, and Delete (CRUD) functions of database applications. You can also use other HTTP verbs, such as HEAD, PATCH, and OPTIONS, with REST. +
+
+REST is one of many ways to share data between applications, so you may not always need to set up a REST service if you choose to communicate directly using another protocol, such as TCP, SOAP, or FTP. But using REST has the following advantages: +
+
+REST typically has a small overhead. It typically uses JSON which is a light-weight data wrapper. JSON identifies data with tags but the tags are not specified in a formal schema definition and do not have explicit data types. REST is typically much simpler to use than SOAP, which uses XML and has more overhead. +
+
+By defining an interface in REST, it is easy to minimize the dependencies between the client and database server. This allows you to update your user interface without impacting your database implementation. You can also update the database implementation without impacting the user interface or any external applications that access the REST API. +
 
 = 官方资料 +
 
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro[EN_REST_API简介] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_rest[REST_First Look] +
-
-
-a
