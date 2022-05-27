@@ -17,6 +17,14 @@ REST typically has a small overhead. It typically uses JSON which is a light-wei
 
 By defining an interface in REST, it is easy to minimize the dependencies between the client and database server. This allows you to update your user interface without impacting your database implementation. You can also update the database implementation without impacting the user interface or any external applications that access the REST API. +
 
+REST, which is named from “Representational State Transfer,” has the following attributes: +
+
+REST is an architectural style rather than a format. Although REST is frequently implemented using HTTP for transporting messages and JSON for passing data, you can also pass data as XML or plain text. REST makes use of existing web standards such as HTTP, URL, XML, and JSON. +
+
+REST is resource oriented. Typically a resource is identified by a URL and uses operations based explicitly on HTTP methods, such as GET, POST, PUT, and DELETE. +
+
+REST typically has a small overhead. Although it can use XML to describe data, it more commonly uses JSON which is a lightweight data wrapper. JSON identifies data with tags but the tags are not specified in a formal schema definition and do not have explicit data types. +
+
 = 官方资料 +
 
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro[EN_REST_API简介] +
