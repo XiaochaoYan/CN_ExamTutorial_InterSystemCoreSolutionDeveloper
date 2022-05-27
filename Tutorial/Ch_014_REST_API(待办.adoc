@@ -36,7 +36,7 @@ GET — this is the http verb. +
 http: — this specifies the communication protocol. +
 
 端口号 +
-//localhost:52773 — this specifies the server and port number of the InterSystems IRIS instance hosting the REST interface. +
+localhost:52773 — this specifies the server and port number of the InterSystems IRIS instance hosting the REST interface. +
 
 Rest API 和 具体资源地址 +
 /rest/coffeemakerapp/coffeemakers — this is the main part of the URL that identifies the resource that the REST call is directed to. In the following discussion, URL refers to this part of the REST call. +
