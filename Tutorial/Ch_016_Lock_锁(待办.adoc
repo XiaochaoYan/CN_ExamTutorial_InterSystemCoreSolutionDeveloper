@@ -24,6 +24,23 @@ If your application needs to modify one or more global nodes, and you do not wan
 LOCK +lockname#locktype 创建 Lock +
 LOCK -lockname#locktype 消除 Lock +
 
+----
+  LOCK +^a(1)      // apply lock ^a(1)
+  LOCK -^a(1)      // remove (unlock) ^a(1)
+                   // An unlock without a locktype defers the unlock
+                   // of a non-incremented lock to the end of the transaction.
+  WRITE "Default unlock within a transaction.",!,"Go look at the Lock Table",!
+  HANG 10          // This HANG allows you to view the current Lock Table
+  LOCK +^a(1)      // reapply lock ^a(1)
+  LOCK -^a(1)#"I"  // remove (unlock) lock ^a(1) immediately
+                   // this removes ^a(1) from the lock table immediately
+                   // without waiting for the end of the transaction
+  WRITE "Immediate unlock within a transaction.",!,"Go look at the Lock Table",!
+  HANG 10          // This HANG allows you to view the current Lock Table
+                   // while still in the transaction
+----
+
+
 == 避免死锁 Deadlock +
 Always include the timeout argument. +
 
