@@ -21,6 +21,9 @@ If your application needs to modify one or more global nodes, and you do not wan
 %Persistent 类的常见操作 %GetLock(), %ReleaseLock(), %LockId(), %UnlockId(), %LockExtent(), and %UnlockExtent() +
 *需要实现 %OpenId() 打开特定实例 +
 
+LOCK +lockname#locktype 创建 Lock +
+LOCK -lockname#locktype 消除 Lock +
+
 == 避免死锁 Deadlock +
 Always include the timeout argument. +
 
