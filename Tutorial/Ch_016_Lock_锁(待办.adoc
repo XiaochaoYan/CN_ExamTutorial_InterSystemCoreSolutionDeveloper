@@ -33,6 +33,14 @@ Use simple locking rather than incremental locking; that is, do not use the + op
 
 If a deadlock occurs, you can resolve it by using the Management Portal or the ^LOCKTAB routine. See “Monitoring Locks” in the Monitoring Guide. +
 
+I: Immediate unlock +
+
+Immediately releases a lock, rather than waiting until the end of a transaction: +
+
+Specifying “I” when unlocking a non-incremented (lock count 1) lock immediately releases the lock. By default, an unlock does not immediately release a non-incremented lock. Instead, when you unlock a non-incremented lock InterSystems IRIS maintains that lock in a delock state until the end of the transaction. Specifying “I” overrides this default behavior. +
+
+Specifying “I” when unlocking an incremented lock (lock count > 1) immediately releases the incremental lock, decrementing the lock count by 1. This is the same behavior as a default unlock of an incremented lock. +
+
 == Escalating Locks +
 当一个 Process 创建了多余特定数量的 锁Lock 后（默认1000），所以 继承关系中的 Child 级别的锁 会被合并到上一层的 Parent 级别的锁 +
 
