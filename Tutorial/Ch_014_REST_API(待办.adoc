@@ -25,6 +25,23 @@ REST is resource oriented. Typically a resource is identified by a URL and uses 
 
 REST typically has a small overhead. Although it can use XML to describe data, it more commonly uses JSON which is a lightweight data wrapper. JSON identifies data with tags but the tags are not specified in a formal schema definition and do not have explicit data types. +
 
+== Call to REST API +
+----
+GET http://localhost:52773/rest/coffeemakerapp/coffeemakers
+----
+HTTP/S 常见 GET 命令 +
+GET — this is the http verb. +
+
+通讯协议 +
+http: — this specifies the communication protocol. +
+
+端口号 +
+//localhost:52773 — this specifies the server and port number of the InterSystems IRIS instance hosting the REST interface. +
+
+Rest API 和 具体资源地址 +
+/rest/coffeemakerapp/coffeemakers — this is the main part of the URL that identifies the resource that the REST call is directed to. In the following discussion, URL refers to this part of the REST call. +
+
+
 = 官方资料 +
 
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro[EN_REST_API简介] +
