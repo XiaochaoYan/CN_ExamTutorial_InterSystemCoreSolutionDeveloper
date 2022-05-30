@@ -154,7 +154,10 @@ CodeMode = - 定义当前 Method 的性质 如 CodeMode = expression 则可以�
 3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_Class的定义与声明] +
 4. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_classes_classvar[EN_常见Class种类速查] +
 5. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
-6. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_method[EN_常见关键词] +
+6. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_method[EN_常见关键词_Method] +
+7. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_class[EN_常见关键词_Class] +
+8. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_property[EN_常见关键词_Property] +
+9. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_parameter[EN_常见关键词_Parameter] +
 
 === 以上
 
