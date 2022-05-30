@@ -151,7 +151,7 @@ CodeMode = - 定义当前 Method 的性质 如 CodeMode = expression 则可以�
 默认顺序从左到右，被 Inheritance Keyword 影响方向 +
 同样名字的 Method / Property / Parameter 等 Class Member 也是遵循上面顺序，只继承未被定义的 Class Member +
 
-*但是*只有最左边的 Class Keyword 会被继承，无关Inheritance Keyword的方向 +
+*但是* 只有最左边的 Class Keyword 会被继承，无关Inheritance Keyword的方向 +
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
