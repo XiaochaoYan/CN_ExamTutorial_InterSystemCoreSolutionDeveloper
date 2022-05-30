@@ -155,7 +155,7 @@ CodeMode = - 定义当前 Method 的性质 如 CodeMode = expression 则可以�
 
 The class keywords for class X come exclusively from class A. (This is why extending classes A and B — in that order — with left-to-right inheritance is not the same as extending classes B and A — in that order — with right-to-left inheritance; the keywords are inherited from the leftmost superclass in either definition, which makes the two cases different.) +
 
-
+其他于 Multiple Inheritance 相关 Keyword 有 CompileAfte / DependsOn / System 建议详细查看文档 +
 
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
