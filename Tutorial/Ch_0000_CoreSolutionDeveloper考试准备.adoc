@@ -42,7 +42,7 @@ https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软
 2. Class method / method +
 3. Keyword +
 4. Database +
-5. %OpenID 等命令 +
+5. %OpenID 等命令(%Persistent 类 +
 6. String 操作 相关 +
 7. List 操作相关 +
 
