@@ -10,7 +10,14 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 = ObjectScript入门
 
-== [1号教程]概要 +
+== 语言设计说明 +
+IRIS系统内部可以使用 4种语言 Python / SQL / Classes类 / ObjectScript 其中以 ObjectScript 作为桥连接其他语言 应用场景最多 +
+
+
+image::IRIS_028.png[]
+
+
+== [1号教程]操作概要 +
 
 === 1.ObjectScript声明/读取/更改 全局变量 
 
