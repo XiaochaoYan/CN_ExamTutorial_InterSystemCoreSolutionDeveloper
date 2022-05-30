@@ -58,6 +58,23 @@ If the query is a SELECT query in one case but a DELETE query in another case, u
 100 ： 成功执行SQL查询 但是没有可用数据 +
 负值 ： SQL查询失败，常见情况 -400 为 泛用性致命错误(general purpose fatal error code) . +
 
+
+== Procedure +
+定义 可以被SQL 调用的方法 需要 SqlProc 关键字 +
+----
+Class Sample.ProcTest Extends %RegisteredObject 
+ {  ClassMethod myfunc(dummy As %String) As %String [ SqlProc ] 
+    { /* method code */
+      Quit "abc" }
+ }  
+----
+在SQL 中的调用 
+----
+SELECT Sample.ProcTest_myfunc(Name)
+FROM Sample.Person
+----
+
+
 = 官方资料 +
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_Class Query] +
