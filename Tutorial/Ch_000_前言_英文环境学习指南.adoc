@@ -83,7 +83,10 @@ image::IRIS_013.png[]
 54. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_fzdate[EN_ZDATE] +
 55. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_date[EN_SQL_DATE] +
 56. https://gettingstarted.intersystems.com/[EN_Getting Started视频] +
-
+57. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_method[EN_常见关键词_Method] +
+58. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_class[EN_常见关键词_Class] +
+59. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_property[EN_常见关键词_Property] +
+60. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_parameter[EN_常见关键词_Parameter] +
 
 === 以上
 
