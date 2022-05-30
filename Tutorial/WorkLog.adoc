@@ -27,3 +27,9 @@ May 24 09:00~18:00 Call back method / Iterator 完成　Relationship　作業中
 May 24 09:00~18:00 Relationship　の続き
 
 May 25 09:00~18:00 REST API / Relationship
+
+May 26 09:00~18:00 試験の復習
+
+May 27 09:00~18:00 試験の復習
+
+May 30 09:00~18:00 試験の復習
