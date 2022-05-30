@@ -169,8 +169,9 @@ The class keywords for class X come exclusively from class A. (This is why exten
 9. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_parameter[EN_常见关键词_Parameter] +
 10. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_classes#GOBJ_model_inheritance_mult[EN_多重继承] +
 11. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_class_dependson[EN_DependsOn_关键词] +
-=== 以上
 
+
+=== 以上
 
 == 名词对照表
 PlaceHolder : 暂时无中日版官方翻译 暂空
