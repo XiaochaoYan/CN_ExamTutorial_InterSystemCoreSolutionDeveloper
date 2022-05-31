@@ -21,6 +21,8 @@ image::IRIS_028.png[]
 
 === 1.ObjectScript声明/读取/更改 全局变量 
 
+^折角符号 表示全局变量 +
+
 === 2.ObjectScript创建Object Oriented Programming 中的 Class +
 
 其中变量类型采用 % 符号声明 如 %String +
