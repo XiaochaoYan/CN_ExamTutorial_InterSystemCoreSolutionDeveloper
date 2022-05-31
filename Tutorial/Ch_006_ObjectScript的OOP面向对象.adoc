@@ -161,6 +161,7 @@ The class keywords for class X come exclusively from class A. (This is why exten
 其他于 Multiple Inheritance 相关 Keyword 有 CompileAfte / DependsOn / System 建议详细查看文档 +
 DependsOn 影响继承链上的所有 SuperClass / Subcalss，同时保证其他Class Runnable 而不只是Compiled +
 CompileAfter 影响继承链上的所有 SuperClass / Subcalss，但是只保证其他Class Compiled +
+* Require 是对用户权限进行限定的，与编译顺序无关 +
 
 
 = 官方资料 +
