@@ -15,6 +15,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 但是 变量名 和 其他的语言 如SQL命令依然可能大小写敏感 +
 
+变量名必须要是 字母 / %Z / $ 开始 不能是数字，百分号代表公共变量 +
+
 ObjectScript自带Python支持同时自身语法也一定程度上类似Python +
 
 ObjectScript 变量对变量类型 *不敏感* 属于 Typeless Language +
