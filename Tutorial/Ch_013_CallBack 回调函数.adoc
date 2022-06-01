@@ -18,7 +18,7 @@ ifndef::imagesdir[:imagesdir: ../Img]
 %OnBeforeSave() — 在执行Insert操作前，在执行Update操作前 - BEFORE INSERT, BEFORE UPDATE +
 %OnAfterSave() — 在执行Insert操作后，Update操作后 - AFTER INSERT, AFTER UPDATE +
 
-%onNew 与 %New 方法的 方法参数必须要一致 +
+%onNew 与 %New 方法的 方法参数Arguments 必须要一致 +
 
 
 = 官方资料 +
