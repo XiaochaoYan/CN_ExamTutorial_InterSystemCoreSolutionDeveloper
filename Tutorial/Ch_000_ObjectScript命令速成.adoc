@@ -194,7 +194,7 @@ Property newObject.a is 3641144 characters long.
 ----
 
 === Z前缀 与 X前缀 +
-Z前缀的 方法Method 如 ZWRITE() / ZZWRITE() 是用来排BUG的方法，可以将变量的详细信息一起打出来 +
+Z前缀的 方法Method 如 ZWRITE() / ZZWRITE() 多是用来排BUG的方法，可以将变量的详细信息一起打出来，但是也有例外 +
 XData / XDATA Block 则是指在 XML / JSON / YAML 等用于存储或传输格式的数据块 +
 
 === HANG +
