@@ -65,6 +65,7 @@ ClassMethod MethodName(arguments) as Classname [ Keywords]
 == 普通方法 Method 与 类方法 Class Method / 方法参数 Method Parameter 与 普通参数Parameter +
 
 Method 默认为 Instance Method 需要有 已经声明的实例 支持 +
+此外 Method 不返回值 +
 Class Method 类似为其他语言的 Static 不一定需要 已经声明的实例 +
 
 属性 Property 为所有此类的实例不共有的变量 +
