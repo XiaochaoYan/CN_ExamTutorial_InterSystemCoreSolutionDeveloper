@@ -105,6 +105,13 @@ Parameter PLANET = "Earth"; ///此处的Parameter 在 Method 外面，实际作�
 }
 ----
 
+== 方法参数 Argument 的默认值 +
+在声明方法参数后，使用 =等号 可以设定没输入参数时的默认值 +
+
+----
+Property Gender As %String(DISPLAYLIST = ",Female,Male", VALUELIST = ",F,M");
+----
+
 
 == 创建 PatDiagnosis类 的 实例并保存到数据库
 
