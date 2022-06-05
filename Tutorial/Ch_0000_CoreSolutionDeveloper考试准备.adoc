@@ -37,6 +37,12 @@ https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软
 4. 完成考试 +
 5. 提交结果 等到考官同意离场 +
 
+== 考试规则 +
+image::IRIS_033.png[]
+
+== 东京时区（JST）的常见考试时间
+image::IRIS_032.png[]
+
 = 重点补强 +
 1. ORDER +
 2. Class method / method +
