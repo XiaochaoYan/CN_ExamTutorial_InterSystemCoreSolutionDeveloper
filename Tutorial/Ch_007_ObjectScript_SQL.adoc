@@ -15,6 +15,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 image::IRIS_014.png[]
 
+image::IRIS_031.png[]
+
 == SQL 在InterSystem中的使用方式 +
 1.使用 &sql 语法嵌入 WebTerminal 等使用 ObjectScript 的场合使用 +
 2.使用  %SQL.Statement 类，新建实例然后使用 +
