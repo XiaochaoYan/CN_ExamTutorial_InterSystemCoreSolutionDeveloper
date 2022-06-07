@@ -52,6 +52,8 @@ Property PropName as Classname(PARAM1=value,PARAM2=value) [ Keywords ] ;
 
 == 类方法 Class Method +
 类的方法采用下方声明语法， 只有 有实例的类(Object Class) 才会使用 Method。 如果省去 as Classname 部分，则本方法不会返回值 +
+类方法 ClassMethod 仅在 需要 1.修改多个实例 2.不涉及任何实例 3.建立新实例 时使用 +
+其他只修改单个实例的时候统一使用 Method
 
 === 这里的 Classname 与 Class 关系并不大，可以理解为 C++ / JAVA 中的 返回值的数据类型(return type) +
 
