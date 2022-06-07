@@ -91,6 +91,8 @@ image::IRIS_013.png[]
 62. https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=ASAMPLES[EN_Sample_官网] +
 63. https://github.com/intersystems/Samples-Data[EN_Sample_Git] +
 64. https://docs.intersystems.com/iris20221/csp/documatic/%25CSP.Documatic.cls?LIBRARY=%25SYS&CLASSNAME=%25Library.Persistent[EN_常用类Persistent类] +
+65. https://docs.intersystems.com/iris20221/csp/documatic/%25CSP.Documatic.cls?&LIBRARY=%25SYS&CLASSNAME=%25Library.Persistent[EN_%Persistent类_所有方法] +
+
 
 
 === 以上
