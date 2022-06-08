@@ -17,5 +17,5 @@ Global全球变量 在 $DATA $ORDER 会有特殊的 返回值ReturnValue +
 如 $DATA(^y)返回11时 代表这个 ^y 本身 有有效 的赋值，且 ^y 下还存在有其他的子变量。 +
 
 = 官方资料 +
-https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GGBL_using[EN_MultiDeimisionalStorage]+
+https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GGBL_using[EN_MultiDeimisionalStorage] +
 
