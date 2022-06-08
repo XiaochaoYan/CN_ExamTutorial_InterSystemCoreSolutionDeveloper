@@ -13,8 +13,8 @@ ifndef::imagesdir[:imagesdir: ../Img]
 
 在变量前 加上 ^折角符 就会在默认情况下 同步所有至所有的 进程Process 中。
 Global全球变量 在 $DATA $ORDER 会有特殊的 返回值ReturnValue +
-如 $DATA(^y)返回10时 代表这个 ^y 本身没有有效的赋值，但是 ^y 下存在有其他的子变量 如 y(1) 。 +
-如 $DATA(^y)返回11时 代表这个 ^y 本身有有效的的赋值，且 ^y 下还存在有其他的子变量。 +
+如 $DATA(^y)返回10时 代表这个 ^y 本身 没有有效 的赋值，但是 ^y 下存在有其他的子变量 如 y(1) 。 +
+如 $DATA(^y)返回11时 代表这个 ^y 本身 有有效 的赋值，且 ^y 下还存在有其他的子变量。 +
 
 = 官方资料 +
 https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GGBL_using[EN_MultiDeimisionalStorage]+
