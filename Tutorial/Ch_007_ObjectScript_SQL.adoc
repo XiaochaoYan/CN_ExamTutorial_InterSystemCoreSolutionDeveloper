@@ -82,6 +82,7 @@ FROM Sample.Person
 2. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_Class Query] +
 3. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RERR_sql[EN_SQL错误代码] +
 4. https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_persistence#GORIENT_persistence_sql_projection_extents[EN_SQL数据库ID] +
+5. https://learning.intersystems.com/course/view.php?id=1054&ssoPass=1[EN_SQL_QuickStart] +
 
 === 以上
 
