@@ -1,1 +1,20 @@
 
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+= Global_全局变量 +
+
+在变量前 加上 ^折角符 就会在默认情况下 同步所有至所有的 进程Process 中。
+Global全球变量 在 $DATA $ORDER 会有特殊的 返回值ReturnValue +
+如 10 11 代表全球的变量存在
+
+= 官方资料 +
+https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GGBL_using[EN_MultiDeimisionalStorage]+
+
