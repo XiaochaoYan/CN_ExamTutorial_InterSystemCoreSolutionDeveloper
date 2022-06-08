@@ -158,7 +158,7 @@ Expo(x,y,&z) ///注意声明时 变量z前方的 &或符号
 = 常见 Method Keyword关键词 +
 Final - 不可以被 子类 Override +
 SqlProc - 可以在 SQL 中被调用 +
-CodeMode = - 定义当前 Method 的性质 如 CodeMode = expression 则可以被作为 Variable 使用 +
+CodeMode = ??? - 定义当前 Method 的性质 如 CodeMode = expression 时这个 Method 则可以被作为 Variable 使用 +
 
 = 多重继承 Multiple Inheritance +
 默认顺序从左到右，被 Inheritance Keyword 影响方向 +
