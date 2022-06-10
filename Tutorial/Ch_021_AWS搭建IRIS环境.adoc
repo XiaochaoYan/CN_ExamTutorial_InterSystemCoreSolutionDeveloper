@@ -1,0 +1,3 @@
+使用下方链接 加入 IRIS 社区版的计划，然后就可以启动 使用IRIS模板的EC2实例。 
+
+https://aws.amazon.com/marketplace/pp/prodview-tdzm2pjb7opqs
