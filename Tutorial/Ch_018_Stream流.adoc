@@ -1,1 +1,19 @@
 
+= IRIS Stream流 +
+
+常见的 Stream流 有以下4种 +
+
+1. %Stream.FileBinary +
+2. %Stream.FileCharacter +
+3. %Stream.GlobalBinary +
+4. %Stream.GlobalCharacter +
+
+此外还有 2种 只能在本地工作不能存入数据库的 +
+1. %Stream.TmpBinary +
+2. %Stream.TmpCharacter +
+
+在 Class类中的 定义 +
+----
+Property Text As %Stream.GlobalCharacter(LOCATION = "^MyText");
+Property DailyImage As %Stream.FileBinary(LOCATION = "C:/Images");
+----
