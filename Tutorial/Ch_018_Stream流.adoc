@@ -2,7 +2,6 @@
 = IRIS Stream流 +
 
 常见的 Stream流 有以下4种 +
-
 1. %Stream.FileBinary +
 2. %Stream.FileCharacter +
 3. %Stream.GlobalBinary +
