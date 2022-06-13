@@ -1,3 +1,22 @@
-使用下方链接 加入 IRIS 社区版的计划，然后就可以启动 使用IRIS模板的EC2实例。 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::imagesdir[:imagesdir: ../Img]
+
+使用下方链接 加入 IRIS 社区版的计划，然后就可以启动 使用IRIS官方的AMI镜像的EC2实例。 
 
 https://aws.amazon.com/marketplace/pp/prodview-tdzm2pjb7opqs
+
+根据下方图片启动 EC2 实例后 +
+
+image::IRIS_034.png[]
+
+我们 打开
+----
+http://AWS的IPV4公共地址:52773/csp/sys/UtilHome.csp
+----
+这个界面使用默认的账号 _SYSTEM 和密码 SYS 进入Management Portal进行密码更改以后就可以正常使用了 +
