@@ -54,4 +54,8 @@ June 8 09:00~18:00 出社
 
 June 9 09:00~18:00　チュートリアルの更新　復習　June 22 試験再参加の予定
 
+June 10 09:00~18:00 AWSのセットアップ
 
+June 13 09:00-18:00 AWSのセットアップ完成　復習開始
+
+https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Lists2
