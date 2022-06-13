@@ -95,7 +95,7 @@ image::IRIS_013.png[]
 66. https://learning.intersystems.com/course/view.php?id=1054&ssoPass=1[EN_SQL_QuickStart] +
 67. https://hub.docker.com/_/intersystems-iris-data-platform/plans/222f869e-567c-4928-b572-eb6a29706fbd?tab=instructions[EN_Docker_IRIS容器版本] +
 68. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_2018版对于OOP的说明] +
- 
+69. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GAUTHZ_users#GAUTHZ_users_predefined[EN_预设的IRIS用户账号] +
 
 === 以上
 
