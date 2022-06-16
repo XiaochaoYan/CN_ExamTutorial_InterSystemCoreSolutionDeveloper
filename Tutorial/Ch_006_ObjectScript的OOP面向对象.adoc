@@ -27,6 +27,7 @@ his class represents an object that can be embedded in (serialized within) anoth
 image::IRIS_008.png[]
 
 == 范例 +
+可以注意一下 属性Property 的 关键词/参数的声明方法，特别是 SSN 这个属性。 +
 ----
 /// This sample persistent class represents a person.
 Class MyApp.Person Extends %Persistent [ SqlTableName = MyAppPerson ]
