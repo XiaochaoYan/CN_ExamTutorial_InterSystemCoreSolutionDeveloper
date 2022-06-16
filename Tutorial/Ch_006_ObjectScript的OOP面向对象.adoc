@@ -26,6 +26,24 @@ his class represents an object that can be embedded in (serialized within) anoth
 
 image::IRIS_008.png[]
 
+== 范例 +
+----
+/// This sample persistent class represents a person.
+Class MyApp.Person Extends %Persistent [ SqlTableName = MyAppPerson ]
+{
+
+/// Define a unique index for the SSN property.
+Index SSNKey On SSN [ Unique ];
+
+/// Name of the person.
+Property Name As %String [ Required ];
+
+/// Person's Social Security number.
+Property SSN As %String(PATTERN = "3N1""-""2N1""-""4N") [ Required ];
+
+}
+----
+
 
 == 继承 Extends +
 可继承多个父类, 官方推荐至少继承 %Persistent 或 它的其他子类 。
