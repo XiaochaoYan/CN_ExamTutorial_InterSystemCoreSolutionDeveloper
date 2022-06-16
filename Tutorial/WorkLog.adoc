@@ -62,6 +62,8 @@ June 14 09:00-18:00 復習
 
 June 15 09:00-18:00 復習
 
+June 16 09:00-18:00 復習
+
 https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=TOS_Lists2
 
 https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ
