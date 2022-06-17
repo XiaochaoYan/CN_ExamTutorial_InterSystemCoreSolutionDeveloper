@@ -32,13 +32,18 @@ Caret次方符号^ 常用来表示不需要实例的 例行操作Routine 也表�
 
 image::IRIS_009.png[]
 
+== 命名规则 +
+1. 所有 变量/常量/方法/属性 必须由 字母 或者 %百分号 开始 +
+2. 后续的字符可以是 任意 字母或者数字 （变量Variable 和 方法Method 等 类的构成部分ClassMemeber 不能包含特殊符号) +
+3. 变量Variable 和 方法Method命名虽然大小写敏感，但是 xDATA123 和 XDATA123 为了避免混淆会被禁止同时在一个变量范围内声明 +
+
 == 编程易犯错误 +
 
 1.系统命令 Command的 语句 和 第一个参数Argument 之间必须是一个空格 (全角半角未知，中文英文一般默认半角) +
 2.中文 日文中的非ASCII字符，需要先通过 $CHAR 命令转化成 变量Variable 后才能进行 String的相关演算 + 
 
 
-=== 未完
+=== 以上
 
 == 官方资料 
 1. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_functions_lists[EN_ObjectScript详解] +
