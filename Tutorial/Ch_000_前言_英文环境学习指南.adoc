@@ -98,6 +98,7 @@ image::IRIS_013.png[]
 69. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GAUTHZ_users#GAUTHZ_users_predefined[EN_预设的IRIS用户账号] +
 70. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_preface[EN_2018版文档目录] +
 71. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=SETAppDev[EN_2018核心开发者必修_CoreDeveloper] +
+72. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_persobj_intro#GOBJ_persobj_intro_ident[EN_OID和ID的区别] +
 
 === 以上
 
