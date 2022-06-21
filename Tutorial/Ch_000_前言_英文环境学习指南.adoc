@@ -99,6 +99,7 @@ image::IRIS_013.png[]
 70. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_preface[EN_2018版文档目录] +
 71. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=SETAppDev[EN_2018核心开发者必修_CoreDeveloper] +
 72. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_persobj_intro#GOBJ_persobj_intro_ident[EN_OID和ID的区别] +
+73. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_proplit#GOBJ_proplit_available_cls[EN_常见数据类型] +
 
 === 以上
 
