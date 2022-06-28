@@ -42,6 +42,9 @@ https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GORI
 = Core Developer 考点一览 +
 image::IRIS_013.png[]
 
+= 中英对照学习用材料 +
+1. https://zhuanlan.zhihu.com/p/27008015[中文_特殊标点符号中英对照] +
+
 = 官方资料汇总 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[EN_CoreDeveloper考试概要] +
 2. https://docs.intersystems.com/[EN_官方文档] +
