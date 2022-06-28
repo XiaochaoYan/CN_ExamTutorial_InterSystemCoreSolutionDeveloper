@@ -24,7 +24,7 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 3.多举一反三，和同类产品做横向比较/思考IRIS在垂直产业链中的位置和作用 +
 
 = 最速通关教程 +
-总目录： +
+总目录 +
 https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=SETAppDev[EN_2018核心开发者必修_CoreDeveloper] +
 
 重点考点 +
