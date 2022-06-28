@@ -23,6 +23,19 @@ https://community.intersystems.com/[EN_开发者社区入口] +
 
 3.多举一反三，和同类产品做横向比较/思考IRIS在垂直产业链中的位置和作用 +
 
+= 最速通关教程 +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=SETAppDev[EN_2018核心开发者必修_CoreDeveloper] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ[EN_2018_Defining and Using Classes] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=TOS[EN_2018_ObjectScript Tutorial] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS[EN_2018_Using ObjectScript] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL[EN_2018_Using InterSystems SQL] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GSQLOPT[EN_2018_InterSystems SQL Optimization Guide] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS[EN_2018_ObjectScript Reference] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ[EN_2018_Class Definition Reference] +
+https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT[EN_2018_Orientation Guide for Server-Side Programming] +
+
+=== 以上教程建议在第一期考试前熟练掌握 +
+
 = Core Developer 考点一览 +
 image::IRIS_013.png[]
 
