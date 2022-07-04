@@ -209,7 +209,7 @@ HANG 命令会暂停所有指令的执行 x 秒，常用来检查和排除BUG +
 6. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GOBJ_specialcos[EN_面对对象特有ObjectScript语言特性] +
 7. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_syntax#GCOS_syntax_whitespace[EN_空格符 相关语言特性] +
 8. link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#:~:text=The%20general%20solution%20to%20this%20problem%20is%20to%20pass%20the%20%25ToJSON()%20output%20by%20reference%20in%20a%20DO%20command%2C%20without%20actually%20examining%20the%20return%20value.%20Output%20is%20written%20directly%20to%20the%20current%20device%2C%20and%20there%20is%20no%20limit%20on%20the%20length%20of%20the%20output.%20In%20the%20following%20examples%2C%20the%20device%20is%20a%20stream.++[EN_过长文字列处理方法] +
-9. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_regexp[EN_常规表达 RegularExpression] +
+9. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_regexp[EN_正则表达式 RegularExpression] +
 
 
 === 以上
