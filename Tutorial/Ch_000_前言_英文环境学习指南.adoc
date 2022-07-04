@@ -72,7 +72,7 @@ image::IRIS_013.png[]
 24. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GOBJ_specialcos[EN_面对对象特有ObjectScript语言特性] +
 25. https://aws.amazon.com/quickstart/architecture/intersystems-iris/[EN_AWS&IRIS] +
 26. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_usercode#:~:text=using%20the%20form%3A-,.name,-With%20passing%20by[EN_参数传递] +
-27. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌套式SQL] +
+27. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_esql[EN_嵌入式SQL] +
 28. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_queries[EN_类查询 Class Query] +
 29. https://learning.intersystems.com/course/view.php?id=1322[EN_Management Portal 教程] +
 30. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_syntax#GCOS_syntax_whitespace[EN_空格符 相关语言特性] +
@@ -81,20 +81,20 @@ image::IRIS_013.png[]
 33. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON[EN_JSON 操作汇总] +
 34. https://learning.intersystems.com/enrol/index.php?id=972[EN_JSON导入导出 Course版教程(老版 部分可用] +
 35. https://github.com/intersystems-community[EN_Git InterSystem总页面] +
-36. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 重复器 Iterator] +
+36. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_iteration[EN_ObjectScript 迭代器 Iterator] +
 37. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_callbacks#GOBJ_cb_onaftersave[EN_Callback 回调函数] +
 38. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#GJSON_create_chain[EN_MethodChain 方法链] +
-39. link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#:~:text=The%20general%20solution%20to%20this%20problem%20is%20to%20pass%20the%20%25ToJSON()%20output%20by%20reference%20in%20a%20DO%20command%2C%20without%20actually%20examining%20the%20return%20value.%20Output%20is%20written%20directly%20to%20the%20current%20device%2C%20and%20there%20is%20no%20limit%20on%20the%20length%20of%20the%20output.%20In%20the%20following%20examples%2C%20the%20device%20is%20a%20stream.++[EN_过长文字列处理方法] +
+39. link:++https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GJSON_create#:~:text=The%20general%20solution%20to%20this%20problem%20is%20to%20pass%20the%20%25ToJSON()%20output%20by%20reference%20in%20a%20DO%20command%2C%20without%20actually%20examining%20the%20return%20value.%20Output%20is%20written%20directly%20to%20the%20current%20device%2C%20and%20there%20is%20no%20limit%20on%20the%20length%20of%20the%20output.%20In%20the%20following%20examples%2C%20the%20device%20is%20a%20stream.++[EN_过长字符列处理方法] +
 40. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT[EN_文档版 服务端应用构成] +
 41. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_callbacks#GOBJ_cb_onaftersave[EN_回调函数] +
 42. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_relationships[EN_实例间关系] +
 43. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_dynamicdispatch[EN_动态分派Dynamic Dispatch] +
 44. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GREST_intro[EN_REST_API简介] +
 45. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_index[EN_Index 关键字定义] +
-46. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_foreignkeys[EN_异域键 ForeignKey] +
+46. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GSQL_foreignkeys[EN_外键 ForeignKey] +
 47. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef[EM_不同类_Class_的定义] +
-48. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_regexp[EN_常规表达 RegularExpression] +
-49. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_tp[EN_数据库交易处理_TranscationProcessing] +
+48. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_regexp[EN_正则表达式 RegularExpression] +
+49. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_tp[EN_数据库事务处理_TranscationProcessing] +
 50. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ALOCK[EN_锁和并发_Lock&Concurrency] +
 51. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_classdef_xdata[EN_X数据_XDATA] +
 52. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=GOBJ_propstream[EN_流_Stream] +
@@ -102,10 +102,10 @@ image::IRIS_013.png[]
 54. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_fzdate[EN_ZDATE] +
 55. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=RSQL_date[EN_SQL_DATE] +
 56. https://gettingstarted.intersystems.com/[EN_Getting Started视频] +
-57. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_method[EN_常见关键词_Method] +
-58. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_class[EN_常见关键词_Class] +
+57. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_method[EN_常见关键字_Method] +
+58. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_class[EN_常见关键字_Class] +
 59. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_property[EN_常见关键词_Property] +
-60. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_parameter[EN_常见关键词_Parameter] +
+60. https://docs.intersystems.com/iris20212/csp/docbook/Doc.View.cls?KEY=ROBJ_parameter[EN_常见关键字_Parameter] +
 61. https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_persistence#GORIENT_persistence_sql_projection_extents[EN_SQL的ID相关] +
 62. https://docs.intersystems.com/iris20221/csp/docbook/DocBook.UI.Page.cls?KEY=ASAMPLES[EN_Sample_官网] +
 63. https://github.com/intersystems/Samples-Data[EN_Sample_Git] +
