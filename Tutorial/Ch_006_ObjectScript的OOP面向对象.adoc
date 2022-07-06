@@ -192,7 +192,6 @@ DependsOn 影响继承链上的所有 SuperClass / Subcalss，同时保证其他
 CompileAfter 影响继承链上的所有 SuperClass / Subcalss，但是只保证其他Class Compiled +
 * Require 是对用户权限进行限定的，与编译顺序无关 +
 
-
 = 官方资料 +
 1. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_COMMANDS[EN_ObjectScript详细文档] +
 2. https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_cos#GORIENT_cos_commands_familiar[EN_常用ObjectScript命令速查] +
@@ -210,6 +209,9 @@ CompileAfter 影响继承链上的所有 SuperClass / Subcalss，但是只保证
 14. https://docs.intersystems.com/irislatest/csp/documatic/%25CSP.Documatic.cls?LIBRARY=%25SYS&CLASSNAME=%25Library.Numeric[EN_常用类_%Numeric] +
 15. https://docs.intersystems.com/iris20212/csp/docbook/DocBook.UI.Page.cls?KEY=ROBJ_index[EN_常用关键词_索引坐标] +
 16. https://docs.intersystems.com/iris20181/csp/docbook/DocBook.UI.Page.cls?KEY=GOBJ_intro[EN_2018版对于OOP的说明] +
+17. https://learning.intersystems.com/course/view.php?id=967[EN_练习:服务器端OOP编程] +
+
+image::IRIS_035.png[]
 
 === 以上
 
