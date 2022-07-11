@@ -65,7 +65,7 @@ image::IRIS_021.png[]
 
 = 官方资料 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[考试简介] +
-2. https://www.intersystems.com/certifications/practice-questions-intersystems-iris-core-developer.pdf[考试例题]
+2. https://learning.intersystems.com/course/view.php?id=2037&ssoPass=1[考试例题]
 3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟(过期)] +
 4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检(过期)] +
 5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark(过期)] +
