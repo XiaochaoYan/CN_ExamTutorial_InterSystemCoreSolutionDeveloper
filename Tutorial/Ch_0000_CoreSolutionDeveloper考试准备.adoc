@@ -24,6 +24,11 @@ https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软
 点击文中下载连接，双击打开后，可以打开考试模拟界面 +
 需要测试 1.能否正常打开考试界面 2.能否打开开始用的参考文档 +
 
+额外测试软件
+https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
+
+https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+
 === 进入软件前保持输入法为英文输入法，进入后无法使用默认快捷键切换。 考试页面可以使用 CTRL + F 键对参考文档进行快速搜索(不建议使用 CTRL + F 可能导致卡死，直接使用目录的蓝字超链接跳转会稳定一些，如果一定要搜索建议得到结果后手动关闭 CTRL+F 搜索框 +
 
 = 事先准备 +
@@ -66,9 +71,9 @@ image::IRIS_021.png[]
 = 官方资料 +
 1. https://www.intersystems.com/certifications/intersystems-iris-core-solutions-developer-specialist[考试简介] +
 2. https://learning.intersystems.com/course/view.php?id=2037&ssoPass=1[考试例题]
-3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟(过期)] +
-4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检(过期)] +
-5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark(过期)] +
+3. https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
+4. https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+5. https://drive.google.com/file/d/1lMnNn7fC5ujX40g33-MmPvMJwb1HHQsD/view[分流下载:考试用软件QuestionMark] +
 6. https://www.intersystems.com/certification-program/certification-exam-policies/[考试环境说明/重考政策] +
 7. https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软件测试] +
 
