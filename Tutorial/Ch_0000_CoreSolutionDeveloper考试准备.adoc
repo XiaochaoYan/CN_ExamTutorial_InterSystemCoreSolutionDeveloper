@@ -24,10 +24,17 @@ https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软
 点击文中下载连接，双击打开后，可以打开考试模拟界面 +
 需要测试 1.能否正常打开考试界面 2.能否打开开始用的参考文档 +
 
-额外测试软件
+额外测试软件 +
 https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
+应该所有选项如下图一样全绿 +
+
+image::IRIS_036.png[]
 
 https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+
+image::IRIS_037.png[]
+
+image::IRIS_038.png[]
 
 === 进入软件前保持输入法为英文输入法，进入后无法使用默认快捷键切换。 考试页面可以使用 CTRL + F 键对参考文档进行快速搜索(不建议使用 CTRL + F 可能导致卡死，直接使用目录的蓝字超链接跳转会稳定一些，如果一定要搜索建议得到结果后手动关闭 CTRL+F 搜索框 +
 
