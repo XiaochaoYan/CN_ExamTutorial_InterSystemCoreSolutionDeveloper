@@ -25,12 +25,14 @@ https://www.intersystems.com/wp-content/uploads/2019/11/PDFTest.pdf[EN_考试软
 需要测试 1.能否正常打开考试界面 2.能否打开开始用的参考文档 +
 
 额外测试软件 +
-https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
+
+https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+
 应该所有选项如下图一样全绿 +
 
 image::IRIS_036.png[]
 
-https://prod.examity.com/systemcheck/ComputerReadinessCheck1.aspx[考试环境自检] +
+https://support.questionmark.com/content/get-questionmark-secure[考试环境模拟] +
 
 image::IRIS_037.png[]
 
